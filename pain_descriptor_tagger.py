@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import re
 
+# --- Updated METAPHOR THEMES ---
 METAPHOR_THEMES = {
     "conflict": [
         "battle", "war", "fight", "enemy", "attacked", "struggle", "combat", "warrior"
@@ -11,7 +12,7 @@ METAPHOR_THEMES = {
     "violent_action": [
         "tearing", "ripping", "twisting", "pulling", "breaking", "crushing", "smashing", "pounding"
     ],
-    "external_tools": [
+    "violence_with_object": [
         "knife", "blade", "drill", "piercing", "stabbing", "needle", "dagger", "spear"
     ],
     "weather": [
@@ -38,11 +39,14 @@ METAPHOR_THEMES = {
     "transformative_force": [
         "blacking out", "fading", "losing consciousness", "disappearing", "melting away", "detaching"
     ],
-    "death_illness": [
-        "dying", "decaying", "infected", "poisoned", "rotting", "sickening", "terminal"
+    "death": [
+        "dying", "decaying", "lifeless", "fading", "rotting"
     ],
-    "injury_medical": [
-        "wounded", "broken", "bruised", "bleeding", "scarred", "fractured"
+    "illness": [
+        "infected", "sickening", "poisoned", "disease", "inflamed", "virus", "spreading"
+    ],
+    "injury": [
+        "broken", "bruised", "bleeding", "fractured", "wounded", "torn", "scarred"
     ],
     "journey": [
         "path", "road", "going through", "stuck", "lost", "crossing", "wandering", "climbing"
