@@ -73,8 +73,9 @@ def detect_metaphors(text):
         r"\blike an\b"
     ]
 
-    if any(re.search, pattern, text_lower) for pattern in simile_patterns):
-                simile_flag = True
+   if any(re.search, pattern, text_lower) for pattern in simile_patterns):
+       simile_flag = True
+
 
         # Check for metaphor themes
     for theme, keywords in METAPHOR_THEMES.items():
@@ -95,3 +96,13 @@ if detected_themes or simile_flag:
                 return label
 else:
         return None
+        
+        
+# --- Apply metaphor detection to dataset ---
+# Load your dataset
+df = pd.read_csv("pain_descriptors_categorized.csv")
+df ["metaphorical_label"] = df["feels like…"].astype(str).apply(detect_metaphors)
+
+# Save to new file
+df.to_csv("pain_descriptors_with_metaphors.csv", index=False)
+print("Metaphor detection complete. File saved as pain_descriptors_with_metaphors.csv")
