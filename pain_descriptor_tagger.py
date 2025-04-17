@@ -72,3 +72,13 @@ def detect_metaphors(text):
         r"\blike a\b",
         r"\blike an\b"
     ]
+
+    if any(re.search, pattern, text_lower) for pattern in simile_patterns):
+                simile_flag = True
+
+        # Check for metaphor themes
+    for theme, keywords in METAPHOR_THEMES.items():
+                for keyword in keywords:
+            if re.search(rf"\b{keyword}\b", text_lower):
+                                detected_themes.append(theme)
+                break
