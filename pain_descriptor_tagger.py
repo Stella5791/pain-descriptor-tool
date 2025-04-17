@@ -63,7 +63,8 @@ def detect_metaphors(text):
 
 
 # --- Apply metaphor detection to dataset ---
-df = pd.read_csv("pain_descriptors_categorized.csv")
+df = pd.read_csv("pain_descriptors_categorized_updated.csv")
+
 
 # Ensure the column exists and apply the function
 if "feels like…" in df.columns:
