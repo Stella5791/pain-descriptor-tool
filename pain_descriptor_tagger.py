@@ -58,3 +58,17 @@ METAPHOR_THEMES = {
         "growing inside", "roots", "plant", "spreading", "infesting", "burrowing"
     ]
 }
+
+
+def detect_metaphors(text):
+    text_lower = text.lower()
+    detected_themes = []
+    simile_flag = False
+
+    # Check for simile patterns
+    simile_patterns = [
+        r"\bfeels like\b",
+        r"\bas if\b",
+        r"\blike a\b",
+        r"\blike an\b"
+    ]
