@@ -1,4 +1,3 @@
-
 import pandas as pd
 import tkinter as tk
 from tkinter import ttk
@@ -59,7 +58,6 @@ METAPHOR_THEMES = {
     ]
 }
 
-
 def detect_metaphors(text):
     text_lower = text.lower()
     detected_themes = []
@@ -72,36 +70,38 @@ def detect_metaphors(text):
         r"\blike a\b",
         r"\blike an\b"
     ]
+    if any(re.search(pattern, text_lower) for pattern in simile_patterns):
+        simile_flag = True
 
-   if any(re.search, pattern, text_lower) for pattern in simile_patterns):
-       simile_flag = True
-
-
-        # Check for metaphor themes
+    # Check for metaphor themes
     for theme, keywords in METAPHOR_THEMES.items():
-                for keyword in keywords:
+        for keyword in keywords:
             if re.search(rf"\b{keyword}\b", text_lower):
-                                detected_themes.append(theme)
+                detected_themes.append(theme)
                 break
 
-if detected_themes or simile_flag:
-    label = "Metaphorical (
+    if detected_themes or simile_flag:
+        label = "Metaphorical ("
         if simile_flag:
-            label = "Simile"
+            label += "Simile"
             if detected_themes:
-                label += " , ".join(detected_themes)
-             else:
+                label += ", " + ", ".join(detected_themes)
+        else:
             label += ", ".join(detected_themes)
-                label += ")"
-                return label
-else:
+        label += ")"
+        return label
+    else:
         return None
-        
-        
+
 # --- Apply metaphor detection to dataset ---
 # Load your dataset
 df = pd.read_csv("pain_descriptors_categorized.csv")
-df ["metaphorical_label"] = df["feels like…"].astype(str).apply(detect_metaphors)
+
+# Ensure the column exists and apply the function
+if "feels like…" in df.columns:
+    df["metaphorical_label"] = df["feels like…"].astype(str).apply(detect_metaphors)
+else:
+    raise KeyError("The column 'feels like…' is missing from the dataset.")
 
 # Save to new file
 df.to_csv("pain_descriptors_with_metaphors.csv", index=False)
