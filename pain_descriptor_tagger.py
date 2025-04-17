@@ -82,3 +82,16 @@ def detect_metaphors(text):
             if re.search(rf"\b{keyword}\b", text_lower):
                                 detected_themes.append(theme)
                 break
+
+if detected_themes or simile_flag:
+    label = "Metaphorical (
+        if simile_flag:
+            label = "Simile"
+            if detected_themes:
+                label += " , ".join(detected_themes)
+             else:
+            label += ", ".join(detected_themes)
+                label += ")"
+                return label
+else:
+        return None
