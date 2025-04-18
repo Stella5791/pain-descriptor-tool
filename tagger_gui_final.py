@@ -24,6 +24,7 @@ METAPHOR_SUBTYPES = [
     "illness", "injury", "journey", "childbirth", "organic_entity"
 ]
 
+
 def save_and_next():
     global current_index
     selected_categories = []
@@ -44,10 +45,12 @@ def save_and_next():
     current_index += 1
     show_next()
 
+
 def skip():
     global current_index
     current_index += 1
     show_next()
+
 
 def show_next():
     if current_index < len(df):
@@ -65,6 +68,7 @@ def show_next():
         save_button.config(state="disabled")
         skip_button.config(state="disabled")
 
+
 # GUI setup
 root = tk.Tk()
 root.title("Pain Descriptor Tagger v2")
@@ -72,7 +76,8 @@ root.title("Pain Descriptor Tagger v2")
 frame = ttk.Frame(root, padding=20)
 frame.grid(row=0, column=0)
 
-descriptor_label = ttk.Label(frame, text="", wraplength=400, font=("Arial", 14))
+descriptor_label = ttk.Label(
+    frame, text="", wraplength=400, font=("Arial", 14))
 descriptor_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
 # Top-level categories
@@ -81,20 +86,27 @@ affective_var = tk.BooleanVar()
 metaphorical_var = tk.BooleanVar()
 temporal_var = tk.BooleanVar()
 
-ttk.Label(frame, text="Main Categories:", font=("Arial", 10, "bold")).grid(row=1, column=0, sticky="w", pady=(0, 5))
-ttk.Checkbutton(frame, text="Sensory", variable=sensory_var).grid(row=2, column=0, sticky="w")
-ttk.Checkbutton(frame, text="Affective", variable=affective_var).grid(row=3, column=0, sticky="w")
-ttk.Checkbutton(frame, text="Metaphorical", variable=metaphorical_var).grid(row=2, column=1, sticky="w")
-ttk.Checkbutton(frame, text="Temporal", variable=temporal_var).grid(row=3, column=1, sticky="w")
+ttk.Label(frame, text="Main Categories:", font=("Arial", 10, "bold")
+          ).grid(row=1, column=0, sticky="w", pady=(0, 5))
+ttk.Checkbutton(frame, text="Sensory", variable=sensory_var).grid(
+    row=2, column=0, sticky="w")
+ttk.Checkbutton(frame, text="Affective", variable=affective_var).grid(
+    row=3, column=0, sticky="w")
+ttk.Checkbutton(frame, text="Metaphorical", variable=metaphorical_var).grid(
+    row=2, column=1, sticky="w")
+ttk.Checkbutton(frame, text="Temporal", variable=temporal_var).grid(
+    row=3, column=1, sticky="w")
 
 # Metaphor subtypes
-ttk.Label(frame, text="Metaphor Subtypes:", font=("Arial", 10, "bold")).grid(row=4, column=0, columnspan=2, pady=(10, 0), sticky="w")
+ttk.Label(frame, text="Metaphor Subtypes:", font=("Arial", 10, "bold")).grid(
+    row=4, column=0, columnspan=2, pady=(10, 0), sticky="w")
 subtype_vars = {}
 for i, subtype in enumerate(METAPHOR_SUBTYPES):
     row = 5 + i // 2
     col = i % 2
     var = tk.BooleanVar()
-    ttk.Checkbutton(frame, text=subtype.replace("_", " "), variable=var).grid(row=row, column=col, sticky="w")
+    ttk.Checkbutton(frame, text=subtype.replace("_", " "),
+                    variable=var).grid(row=row, column=col, sticky="w")
     subtype_vars[subtype] = var
 
 # Save/skip buttons
@@ -116,7 +128,8 @@ help_text = (
     "(sensory/affective) and figurative (metaphorical/submetaphorical) dimensions."
 )
 
-help_label = ttk.Label(frame, text=help_text, wraplength=500, font=("Arial", 9), foreground="gray")
+help_label = ttk.Label(frame, text=help_text, wraplength=500,
+                       font=("Arial", 9), foreground="gray")
 help_label.grid(row=row+2, column=0, columnspan=2, pady=(0, 10))
 
 show_next()
