@@ -5,8 +5,9 @@ from tkinter import ttk
 import os
 
 # Load descriptors
-INPUT_FILE = "pain_descriptors_categorized_updated.csv"
-OUTPUT_FILE = "pain_descriptors_tagged_manual_v2.csv"
+INPUT_FILE = "pain_tags_clean.csv"
+OUTPUT_FILE = "pain_tags_clean_reviewed.csv"
+
 
 if os.path.exists(OUTPUT_FILE):
     df = pd.read_csv(OUTPUT_FILE)
