@@ -3,14 +3,11 @@ import pandas as pd
 import re
 from nltk.stem import PorterStemmer
 
-# === Configuration ===
-INPUT_CSV = "pain_descriptors_categorized_updated.csv"
-OUTPUT_CSV = "pain_descriptors_final_tagged_all_layers.csv"
+INPUT_CSV = "pain_tags_input.csv"
+OUTPUT_CSV = "pain_tags_clean.csv"
 
-# === Initialize Stemmer ===
 stemmer = PorterStemmer()
 
-# === Metaphor Taxonomy (with mechanical subtheme folded into violence_with_object) ===
 METAPHOR_THEMES = {
     "violence_with_object": [
         "knife", "blade", "stab", "pierce", "needle", "dagger", "spear", "drill",
@@ -32,18 +29,16 @@ METAPHOR_THEMES = {
 }
 
 SIMILE_PATTERNS = [
-    r"\\bfeels like\\b", r"\\bas if\\b", r"\\blike a\\b", r"\\blike an\\b"
+    r"\bfeels like\b", r"\bas if\b", r"\blike a\b", r"\blike an\b"
 ]
 
-# === Helper Functions ===
-
 def stem_text(text):
-    words = re.findall(r"\\b\\w+\\b", text.lower())
+    words = re.findall(r"\b\w+\b", text.lower())
     return set(stemmer.stem(word) for word in words)
 
 def detect_metaphor_type(text):
     text_lower = str(text).lower()
-    simile_flag = any(re.search(pat.replace('\\\', '\\b'), text_lower) for pat in SIMILE_PATTERNS)
+    simile_flag = any(re.search(pat, text_lower) for pat in SIMILE_PATTERNS)
     metaphorical = False
     subtypes = []
 
@@ -95,8 +90,6 @@ def estimate_intensity(text):
         return "low"
     return ""
 
-# === Load, Process, Export ===
-
 def run_auto_tagger(input_path=INPUT_CSV, output_path=OUTPUT_CSV):
     df = pd.read_csv(input_path)
 
@@ -108,6 +101,5 @@ def run_auto_tagger(input_path=INPUT_CSV, output_path=OUTPUT_CSV):
     df.to_csv(output_path, index=False)
     print(f"✅ Auto-tagging complete. File saved as: {output_path}")
 
-# === Entry Point ===
 if __name__ == "__main__":
     run_auto_tagger()
