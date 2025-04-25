@@ -91,7 +91,7 @@ someone putting an iron to ,,[],[],,
 "a huge muscle,like the worst muscle cramp ",,[],[],,
 you're burning but on the inside,metaphorical,['heat_temperature'],['sensory'],sensory,high
 a pumpkin ,,[],[],,
-a real shooting pain front to back with a knitting needle,metaphorical,"['violence_with_object', 'motion_forceful']",['sensory'],sensory,high
+a real shooting pain front to back with a knitting needle,metaphorical,"['motion_forceful', 'violence_with_object']",['sensory'],sensory,high
 a screw is being tightened ,metaphorical,['violence_with_object'],['sensory'],sensory,medium
 "a thin, sharp needle right through",metaphorical,['violence_with_object'],[],,medium
 but like someone's cutting you ,,[],[],,
@@ -419,3 +419,6 @@ Sharp metal grinding against itself,metaphorical,['violence_with_object'],[],,me
  pulsating pain.,,[],['sensory'],sensory,
  Eruptions.,,[],[],,
 my inner organs are being flayed,,[],[],,
+like a sharp knife in inserted and twisted in my womb,simile,['violence_with_object'],[],,medium
+like a lightening,simile,[],[],,low
+like a sudden deadly tearing and ripping,simile,[],['temporal'],temporal,
