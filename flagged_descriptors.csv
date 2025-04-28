@@ -3,14 +3,14 @@ and then dumped in a bucket full of hot coals. ,"sensory, metaphorical","heat_te
 a blister,"sensory, metaphorical",injury
 I've been kicked in the gut,"sensory, metaphorical",violent_action
 blisters ,"sensory, metaphorical",injury
-that are about to pop,"sensory, metaphorical",container
+that are about to pop,"sensory, metaphorical",confinement
 seeth,"sensory, metaphorical",heat_temperature 
 someone has sucker punched me square in the stomach,"sensory, metaphorical",violent_action
-my insides are literally going to fall out,"sensory, metaphorical",container
+my insides are literally going to fall out,"sensory, metaphorical",confinement
 u are being squeezed around the upper abdomen,"sensory, metaphorical",confinement
 my stomach and intestines were spasming,"sensory, metaphorical",violent_motion
 I'm in the last stages of labour ,"sensory, temporal, metaphorical",childbirth
-things are falling out of me,"sensory, metaphorical",container
+things are falling out of me,"sensory, metaphorical",confinement
 Im rupturing it just by coughing sometimes,"sensory, metaphorical",violent_action
 a cripple,"sensory, metaphorical",transformative_state
 "a sword is going in, and after my left side will swell up ","sensory, metaphorical",violent_action
@@ -23,44 +23,44 @@ a dragging sensation,"sensory, metaphorical",movement
 I am 9 months pregnant,"sensory, literal",state
 I've been shot in the stomach,"sensory, metaphorical",violent_action
 there's an elephant sitting on my chest,"sensory, metaphorical",pressure
-to carry a baby and ,Type,Category
- have its feet sticking up under your ribs,"sensory, literal",state
-everything in my tummy is falling out when I walk,"sensory, metaphorical",movement
-I did a lot of crunches,"sensory, literal",movement
-my bladder is going to burst,"sensory, metaphorical",pressure
-a balloon swelling up inside you ,"sensory, metaphorical",pressure
-"a big, a lump of coal","sensory, metaphorical",weight
-a furnace in your belly,"sensory, metaphorical",temperature
-someone putting an iron to ,"sensory, metaphorical",violent_action
-a pumpkin ,"sensory, metaphorical",pressure
-a screw is being tightened ,"sensory, literal",state
-my whole body can be in pain at the same time. ,"affective, literal",intensity
-agonising,"affective, literal",memory
-amnesia ...because my talking brain stops being charge an,"sensory, metaphorical",violent_action
-someone gripping the botto,"sensory, literal",state
-a whole body pain,"sensory, metaphorical",violent_action
-burst out ,"sensory, metaphorical",pressure
-claws around my womb,"affective, metaphorical",emotion
-I'm doomed,"sensory, metaphorical",pressure
-I had a balloon,"affective, literal",identity
-I lose my sense of self,"sensory, literal",state
-I had an operation ...just a general tenderness,"sensory, metaphorical",violent_action
-I've been run over,"sensory, literal",activity
-"I've just done a 12 hour shift on the ward, when I've just woken up","sensory, metaphorical",violent_action
-l'm going to shit out my insides ,"sensory, metaphorical",temperature
-a hot poker or ,"sensory, metaphorical",vision
-a muscular pain,"sensory, metaphorical",machine
-tunnel vision,"sensory, metaphorical",environment
-it's very mechanical,"affective, metaphorical",consciousness
-unnatural for the environment,"sensory, metaphorical",vision
-sort of beyond human consciousness ,"sensory, literal",movement
-someone's just opened turned all the lights on. And you can see and breathe ,"sensory, metaphorical",machine
-scraping,"sensory, metaphorical",sound
-machine. ,"sensory, metaphorical",vision
-metal against metal,"sensory, metaphorical",movement
-sparks even,"affective, metaphorical",possession
-my ovary is going ba boom ba boom ba boom,"sensory, metaphorical",violent_action
-possesses you  ,"sensory, metaphorical",violent_action
+to carry a baby and ,"sensory, metaphorical",childbirth
+ have its feet sticking up under your ribs,"sensory, metaphorical",childbirth
+everything in my tummy is falling out when I walk,"sensory, metaphorical",motion_forceful 
+I did a lot of crunches,"sensory, metaphorical",injury
+my bladder is going to burst,"sensory, metaphorical",weight_pressure
+a balloon swelling up inside you ,"sensory, metaphorical",weight_pressure
+"a big, a lump of coal","sensory, metaphorical",heat_temperature 
+a furnace in your belly,"sensory, metaphorical",heat_temperature 
+someone putting an iron to ,"sensory, metaphorical","heat_temperature, violent_action"
+a pumpkin ,"sensory, metaphorical",organic_entity
+a screw is being tightened ,"sensory, metaphorical","motion_forceful, violence_with_object"
+my whole body can be in pain at the same time. ,,
+agonising,,
+amnesia ...because my talking brain stops being charge an,,
+someone gripping the botto,,
+a whole body pain,,
+burst out ,,
+claws around my womb,,
+I'm doomed,,
+I had a balloon,,
+I lose my sense of self,,
+I had an operation ...just a general tenderness,"sensory, metaphorical",injury
+I've been run over,"sensory, metaphorical",violent_action
+"I've just done a 12 hour shift on the ward, when I've just woken up",,
+l'm going to shit out my insides ,"sensory, metaphorical",
+a hot poker or ,,
+a muscular pain,,
+tunnel vision,,
+it's very mechanical,,
+unnatural for the environment,,
+sort of beyond human consciousness ,,
+someone's just opened turned all the lights on. And you can see and breathe ,,
+scraping,,
+machine. ,,
+metal against metal,,
+sparks even,,
+my ovary is going ba boom ba boom ba boom,,
+possesses you  ,,
 my insides were trying to kill me ,,
 somebody putting barbed wire through your belly button,,
  in a figure of eight around your pelvis ,,

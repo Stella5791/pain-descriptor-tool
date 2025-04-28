@@ -11,13 +11,14 @@
     "heat_temperature",
     "motion_violent",
     "motion_forceful",
-    "transformative_force",
+    "transformative_state",
     "death",
     "illness",
     "injury",
     "journey",
     "childbirth",
     "organic_entity",
+    "generic_ache",
     "other"
   ],
   "keywords": {
@@ -42,6 +43,7 @@
     "journey": ["path", "road", "stuck", "lost", "cross", "wander", "climb"],
     "childbirth": ["contract", "push", "labor", "deliver", "birth"],
     "organic_entity": ["root", "plant", "spread", "infest", "burrow"],
+    "generic_ache": ["ache", "pain", "sore", "tender", "toothache", "headache"],
     "other": []
   }
 }
