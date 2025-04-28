@@ -35,7 +35,7 @@
     "heat_temperature": ["fire", "burn", "molten", "scorch", "ice", "freez", "boil", "sear"],
     "motion_violent": ["spin", "crash", "tumble", "whirl", "jerk", "convuls", "explode"],
     "motion_forceful": ["shoot", "surge", "thrust", "radiat", "pulse", "jolt"],
-    "transformative_force": ["black", "fade", "conscious", "disappear", "melt", "detach"],
+    "transformative_state": ["black", "fade", "conscious", "disappear", "melt", "detach"],
     "death": ["die", "decay", "lifeless", "rot"],
     "illness": ["infect", "sicken", "poison", "disease", "inflam", "virus", "spread"],
     "injury": ["break", "bruise", "bleed", "fractur", "wound", "tear", "scar"],
