@@ -2,7 +2,7 @@ descriptor,dimensions,metaphor_types,flag
 "a small blade is sitting just inside my hip bone,",['unspecified'],['violence_with_object'],False
 black cloud that I was in,['unspecified'],"['weather', 'transformative_state']",False
 my womb is so tight that its about to explode at any moment.,['unspecified'],['motion_violent'],False
-its really tight ,['unspecified'],['other'],True
+its really tight ,['unspecified'],['weight_pressure'],False
 I'm on a boat in very choppy waters. ,['unspecified'],['other'],True
 its going to burst ,['unspecified'],['weight_pressure'],False
 it's crawling ,['unspecified'],['other'],True
@@ -23,7 +23,7 @@ I have to push something out,['unspecified'],['childbirth'],False
 [my ovaries] they're gonna tear apart ,['unspecified'],"['violent_action', 'injury']",False
 on top of blowing up,['unspecified'],['other'],True
 "there bruised badly, like someones pressing the bruise ",['metaphorical'],"['weight_pressure', 'injury']",False
-its hurts to breath,['unspecified'],['other'],True
+its hurts to breath,['unspecified'],['generic_ache'],False
 its gonna rip apart and blow up,['unspecified'],['violent_action'],False
 I had very tiny people in there with ropes tied tightly around my insides and pulling down,['unspecified'],['violent_action'],False
 someone cut into my lower abdomen ,['unspecified'],['violence_with_object'],False
@@ -51,13 +51,13 @@ makes me imagine a small blade,['unspecified'],['violence_with_object'],False
 my womb had blown up and i cant bear to touch the area,['unspecified'],['weight_pressure'],False
 someone is stabbing me in my left side,['unspecified'],['violence_with_object'],False
 someone has stabbed me ,['unspecified'],['violence_with_object'],False
-my stomach and intestines were spasming,['unspecified'],['other'],True
+my stomach and intestines were spasming,['unspecified'],['generic_ache'],False
 I'm in the last stages of labour ,['unspecified'],['other'],True
 things are falling out of me,['unspecified'],['other'],True
 Im rupturing it just by coughing sometimes,['unspecified'],['other'],True
 things are being ripped or ,['unspecified'],['violent_action'],False
  like I'm being stabbed.,['metaphorical'],['violence_with_object'],False
-a cripple,['unspecified'],['other'],True
+a cripple,['unspecified'],['motion_forceful'],False
 "a sword is going in, and after my left side will swell up ",['unspecified'],['violence_with_object'],False
 I was punched in the stomach,['unspecified'],['other'],True
 someone is scraping me inside with razor blades,['unspecified'],['violence_with_object'],False
@@ -68,7 +68,7 @@ air bubbles moving up and down in my back and chest,['unspecified'],['other'],Tr
 I am not getting a great breath in,['unspecified'],['other'],True
  a pulled muscle,['unspecified'],['violent_action'],False
 a dragging sensation,['unspecified'],['motion_forceful'],False
-I am 9 months pregnant,['unspecified'],['other'],True
+I am 9 months pregnant,['unspecified'],['childbirth'],False
 Horrible bearing down pressure ,['unspecified'],['weight_pressure'],False
 contraction-like stabbing pain,['metaphorical'],"['violence_with_object', 'childbirth', 'generic_ache']",False
 I've been shot in the stomach,['unspecified'],['other'],True
@@ -147,7 +147,7 @@ somebody putting barbed wire through your belly button,['unspecified'],['other']
  in a figure of eight around your pelvis ,['unspecified'],['other'],True
 having a hot poker planted inside of your stomach,['unspecified'],['organic_entity'],False
 somebody wants to make it explode somehow,['unspecified'],['motion_violent'],False
-somebody's given you an electric shock,['unspecified'],['other'],True
+somebody's given you an electric shock,['unspecified'],['heat_temperature'],False
 somebody's twisting me,['unspecified'],['violent_action'],False
 someone gripping the bottom of my spine ,['unspecified'],['violent_action'],False
 and crushing my spine continuously for two years,['unspecified'],['violent_action'],False
@@ -254,13 +254,13 @@ a stitch I got years ago. ,['unspecified'],['other'],True
 lots of needles cramping up inside of my pelvis,['unspecified'],['violence_with_object'],False
 somebody is pulling your pelvic down so strongly,['unspecified'],['violent_action'],False
 sharp knives or ,['sensory'],['other'],False
-an electric shock playing in the pelvic area.,['unspecified'],['other'],True
+an electric shock playing in the pelvic area.,['unspecified'],['heat_temperature'],False
 "Glass shards,",['unspecified'],['other'],True
- electric shocks,['unspecified'],['other'],True
+ electric shocks,['unspecified'],['heat_temperature'],False
 someone is twisting my insides and won't let their grip go. ,['unspecified'],['violent_action'],False
 It's a warm feeling the spreads throughout the back and abdomen.,['unspecified'],"['illness', 'organic_entity']",False
 someone is ripping my insides out ,['unspecified'],['violent_action'],False
-with barbwire ,['unspecified'],['other'],True
+with barbwire ,['unspecified'],['violence_with_object'],False
 a pressure or soreness with stabs of pain in the uterus area. ,['unspecified'],"['violence_with_object', 'generic_ache']",False
 something is shuddering inside,['unspecified'],['other'],True
 someone has shoved a sword or a poker into me jabbing away. ,['unspecified'],"['violence_with_object', 'heat_temperature']",False
@@ -322,7 +322,7 @@ Sometimes it feels like a hot poker ,['metaphorical'],['other'],False
 or barbed wire is inside,['unspecified'],['other'],True
 a charly horse ,['unspecified'],['other'],True
 an elephant is sitting on my back or stomach,['unspecified'],['other'],True
-I'm pregnant. ,['unspecified'],['other'],True
+I'm pregnant. ,['unspecified'],['childbirth'],False
 a wash cloth being rung out over and over again,['unspecified'],['other'],True
 a hot poker ,['unspecified'],['heat_temperature'],False
 is being drilled through me. ,['unspecified'],['violence_with_object'],False
