@@ -1,32 +1,32 @@
 descriptor,dimensions,metaphor_types,flag
 "a small blade is sitting just inside my hip bone,",['unspecified'],['violence_with_object'],False
-black cloud that I was in,['unspecified'],"['weather', 'transformative_force']",False
+black cloud that I was in,['unspecified'],"['weather', 'transformative_state']",False
 my womb is so tight that its about to explode at any moment.,['unspecified'],['motion_violent'],False
-its really tight ,['sensory'],['weight_pressure'],False
-I'm on a boat in very choppy waters. ,['sensory'],"['journey', 'violent_action']",False
-its going to burst ,['sensory'],['weight_pressure'],False
-it's crawling ,['sensory'],['organic_entity'],False
-the nagging feeling of ,['sensory'],['attacking_agents'],False
+its really tight ,['unspecified'],['other'],True
+I'm on a boat in very choppy waters. ,['unspecified'],['other'],True
+its going to burst ,['unspecified'],['other'],True
+it's crawling ,['unspecified'],['other'],True
+the nagging feeling of ,['unspecified'],['other'],True
 clitoral throbbing ,['sensory'],['other'],False
 I'm carrying a 5 pound weight in my abdomen all the time,['unspecified'],"['violent_action', 'weight_pressure']",False
  goes to my back and left hip and radiates down my leg,['unspecified'],['motion_forceful'],False
- a 10/40 pregnancy,['sensory'],['childbirth'],False
-ur peeing acid,['sensory'],['heat_temperature'],False
+ a 10/40 pregnancy,['unspecified'],['other'],True
+ur peeing acid,['unspecified'],['other'],True
 "someone has stabbed me with a large hunting knife, right in my uterus/ovary",['unspecified'],['violence_with_object'],False
 "someone cut me deep all over of my insides with a thin, sharp knife",['sensory'],['violence_with_object'],False
-I have paper cuts all over inside,['sensory'],['injury'],False
+I have paper cuts all over inside,['unspecified'],['other'],True
 "my ovaries are gonna explode, ",['unspecified'],['motion_violent'],False
 shoots into my back ,['unspecified'],['motion_forceful'],False
 like tingling electric shocks,"['sensory', 'metaphorical']",['other'],False
 it is gonna rip apart,['unspecified'],['violent_action'],False
 I have to push something out,['unspecified'],['childbirth'],False
 [my ovaries] they're gonna tear apart ,['unspecified'],"['violent_action', 'injury']",False
-on top of blowing up,['sensory'],['weight_pressure'],False
+on top of blowing up,['unspecified'],['other'],True
 "there bruised badly, like someones pressing the bruise ",['metaphorical'],"['weight_pressure', 'injury']",False
-its hurts to breath,['sensory'],['illness'],False
+its hurts to breath,['unspecified'],['other'],True
 its gonna rip apart and blow up,['unspecified'],['violent_action'],False
 I had very tiny people in there with ropes tied tightly around my insides and pulling down,['unspecified'],['violent_action'],False
-someone cut into my lower abdomen ,['sensory'],['violence_with_object'],False
+someone cut into my lower abdomen ,['unspecified'],['other'],True
 and then dumped in a bucket full of hot coals. ,['unspecified'],['other'],True
 a blister,['unspecified'],['other'],True
 my uterus is being stabbed,['unspecified'],['violence_with_object'],False
@@ -70,7 +70,7 @@ I am not getting a great breath in,['unspecified'],['other'],True
 a dragging sensation,['unspecified'],['other'],True
 I am 9 months pregnant,['unspecified'],['other'],True
 Horrible bearing down pressure ,['unspecified'],['weight_pressure'],False
-contraction-like stabbing pain,['metaphorical'],"['violence_with_object', 'childbirth']",False
+contraction-like stabbing pain,['metaphorical'],"['violence_with_object', 'childbirth', 'generic_ache']",False
 I've been shot in the stomach,['unspecified'],['other'],True
 there's an elephant sitting on my chest,['unspecified'],['other'],True
 to carry a baby and ,['unspecified'],['other'],True
@@ -81,7 +81,7 @@ everything in my tummy is falling out when I walk,['unspecified'],['other'],True
 ripping my insides out,['unspecified'],['violent_action'],False
 I did a lot of crunches,['unspecified'],['other'],True
 my bladder is going to burst,['unspecified'],['other'],True
-labor pains continuous for 7-10 days a month,['unspecified'],['childbirth'],False
+labor pains continuous for 7-10 days a month,['unspecified'],"['childbirth', 'generic_ache']",False
 I have a coathanger pulling my insides out,['unspecified'],['violent_action'],False
 a balloon swelling up inside you ,['unspecified'],['other'],True
 "a big, a lump of coal",['unspecified'],['other'],True
@@ -91,19 +91,19 @@ someone putting an iron to ,['unspecified'],['other'],True
 "a huge muscle,like the worst muscle cramp ",['metaphorical'],['other'],False
 you're burning but on the inside,['sensory'],['heat_temperature'],False
 a pumpkin ,['unspecified'],['other'],True
-a real shooting pain front to back with a knitting needle,['unspecified'],"['violence_with_object', 'motion_forceful']",False
+a real shooting pain front to back with a knitting needle,['unspecified'],"['violence_with_object', 'motion_forceful', 'generic_ache']",False
 a screw is being tightened ,['unspecified'],['other'],True
 "a thin, sharp needle right through",['sensory'],['violence_with_object'],False
 but like someone's cutting you ,['metaphorical'],['other'],False
 a twisting,['unspecified'],['violent_action'],False
 everything's just pulling down,['unspecified'],['violent_action'],False
-my whole body can be in pain at the same time. ,['unspecified'],['other'],True
+my whole body can be in pain at the same time. ,['unspecified'],['generic_ache'],False
 a storm that passes through your body ,['unspecified'],['weather'],False
 agonising,['unspecified'],['other'],True
 amnesia ...because my talking brain stops being charge an,['unspecified'],['other'],True
 pushing everything out and away,['unspecified'],['childbirth'],False
 someone gripping the botto,['unspecified'],['other'],True
-a whole body pain,['unspecified'],['other'],True
+a whole body pain,['unspecified'],['generic_ache'],False
 being ripped out ,['unspecified'],['violent_action'],False
 burst out ,['unspecified'],['other'],True
 claws around my womb,['unspecified'],['other'],True
@@ -112,7 +112,7 @@ having a hot poker planted inside of your stomach,['unspecified'],['organic_enti
 I had a balloon,['unspecified'],['other'],True
 I lose my sense of self,['unspecified'],['other'],True
 I was trying to give birth to a pineapple,['unspecified'],['childbirth'],False
-I had an operation ...just a general tenderness,['unspecified'],['other'],True
+I had an operation ...just a general tenderness,['unspecified'],['generic_ache'],False
 I'm in labour …I'm giving birth,['unspecified'],['childbirth'],False
 I've been run over,['unspecified'],['other'],True
 "I've just done a 12 hour shift on the ward, when I've just woken up",['unspecified'],['other'],True
@@ -120,7 +120,7 @@ l'm going to shit out my insides ,['unspecified'],['other'],True
 a hot poker or ,['unspecified'],['other'],True
  a knife being shoved inside me,['unspecified'],['violence_with_object'],False
 it radiates to my knee ,['unspecified'],['motion_forceful'],False
-a muscular pain,['unspecified'],['other'],True
+a muscular pain,['unspecified'],['generic_ache'],False
 tunnel vision,['unspecified'],['other'],True
 you're burning but on the inside,['sensory'],['heat_temperature'],False
 it's very mechanical,['unspecified'],['other'],True
@@ -181,7 +181,7 @@ your insides are gonna fall out on the floor,['unspecified'],['other'],True
 "you're in the early stages of labour, sort of puffing and panting, contracting, burning",['sensory'],"['heat_temperature', 'childbirth']",False
 you're being carved out like a pumpkin,['metaphorical'],['other'],False
 you're burning but on the inside,['sensory'],['heat_temperature'],False
-toothache pain in your back,['unspecified'],['other'],True
+toothache pain in your back,['unspecified'],['generic_ache'],False
 your insides are exploding,['unspecified'],['motion_violent'],False
 your insides are gonna fall out on the floor,['unspecified'],['other'],True
 your ovaries are just gonna like burst out  ,['metaphorical'],['other'],False
@@ -233,7 +233,7 @@ a swarm of angry european wasps invade your uterus,['unspecified'],['other'],Tru
 my uterus and other pelvic organs are trying to claw their way out.  ,['unspecified'],['other'],True
 Sometimes using a white hot poker. ,['unspecified'],['other'],True
 Uterus will feel heavy,['unspecified'],['weight_pressure'],False
-you peeled a grape and the remaining flesh is painful,['unspecified'],['other'],True
+you peeled a grape and the remaining flesh is painful,['unspecified'],['generic_ache'],False
 waves of cramp,['unspecified'],['weather'],False
 my internal organs have been pulverized,['unspecified'],['other'],True
 I am in labour but without having a break between contractions,['unspecified'],"['injury', 'childbirth']",False
@@ -261,7 +261,7 @@ someone is twisting my insides and won't let their grip go. ,['unspecified'],['v
 It's a warm feeling the spreads throughout the back and abdomen.,['unspecified'],"['illness', 'organic_entity']",False
 someone is ripping my insides out ,['unspecified'],['violent_action'],False
 with barbwire ,['unspecified'],['other'],True
-a pressure or soreness with stabs of pain in the uterus area. ,['unspecified'],['violence_with_object'],False
+a pressure or soreness with stabs of pain in the uterus area. ,['unspecified'],"['violence_with_object', 'generic_ache']",False
 something is shuddering inside,['unspecified'],['other'],True
 someone has shoved a sword or a poker into me jabbing away. ,['unspecified'],['other'],True
 when a cat steps on your full bladder but heavier and you don't need a wee.,['unspecified'],['other'],True
@@ -332,7 +332,7 @@ something inside will burst/rupture. ,['unspecified'],['other'],True
 my pelvic area is always heavy.,['unspecified'],['weight_pressure'],False
 blisters  ,['unspecified'],['other'],True
 Braxton Hicks contractions,['unspecified'],['childbirth'],False
-all over body pain when inflamed,['unspecified'],['illness'],False
+all over body pain when inflamed,['unspecified'],"['illness', 'generic_ache']",False
 my lower back and stomach is trying to break free from the rest of my body,['unspecified'],['injury'],False
 being stabbed with a rusty ice pick,['unspecified'],"['violence_with_object', 'heat_temperature']",False
 my intestines were being tugged out of my anus when I had my period ,['unspecified'],['other'],True
@@ -342,7 +342,7 @@ I'm trying to give birth to my spine ,['unspecified'],['childbirth'],False
 my insides are battling between themselves ,['unspecified'],['conflict'],False
 using sharp tools. ,['sensory'],['other'],False
 somebody is strangling my womb,['unspecified'],['other'],True
-"I become possessed by pain, like I am someone else that takes possession of my usual self",['metaphorical'],['other'],False
+"I become possessed by pain, like I am someone else that takes possession of my usual self",['metaphorical'],['generic_ache'],False
 I am outside my body and my consciousness ,['unspecified'],['other'],True
 my uterus/bowel is being squeezed inside a Panini press. ,['unspecified'],['weight_pressure'],False
  And sometimes it feels like the panini press have spikes attached,['metaphorical'],['weight_pressure'],False
@@ -374,7 +374,7 @@ Someone took a sharp kitchen knife and stabbed me repeatedly in the groin/pelvis
 Someone took a red hot poker ,['unspecified'],['other'],True
 and ripped open my section scar repeatedly.  ,['unspecified'],"['violent_action', 'injury']",False
 something is eating me from the inside out.  ,['unspecified'],['other'],True
-A pain that radiates outwards ,['unspecified'],['motion_forceful'],False
+A pain that radiates outwards ,['unspecified'],"['motion_forceful', 'generic_ache']",False
 "makes me nauseated, dizzy and dissociated from my body.  ",['unspecified'],['other'],True
 my organs are trying to birth themselves through various orrifices. ,['unspecified'],['childbirth'],False
 someone took my insides and stepped on them threw them around rode a bike over them and then put back in my body. ,['unspecified'],['other'],True
@@ -400,14 +400,14 @@ and stabbing areas at random.,['unspecified'],['violence_with_object'],False
 "you have been hit by a car, ",['unspecified'],['other'],True
  you're internally bruised but nothing to show of it.,['unspecified'],['injury'],False
 When I have a bowel motion it feels like passing broken glass. ,['metaphorical'],['other'],False
-When I have period pain it feels like someone is stabbing me in the pelvis with a knife.,['metaphorical'],['violence_with_object'],False
+When I have period pain it feels like someone is stabbing me in the pelvis with a knife.,['metaphorical'],"['violence_with_object', 'generic_ache']",False
 someone has a knife and is stabbing me up my back passage. ,['unspecified'],['violence_with_object'],False
 something is constantly tugging on my left ovary ,['unspecified'],['other'],True
-toothache but throughout my abdomen.,['unspecified'],['other'],True
+toothache but throughout my abdomen.,['unspecified'],['generic_ache'],False
 Sometimes being kicked or ,['unspecified'],['other'],True
  or something being forcefully jammed in the vagina.,['unspecified'],['other'],True
 having an awful bruise that is continually irritated and won't heal.,['unspecified'],['injury'],False
- At times the ache is sharper,['sensory'],['other'],False
+ At times the ache is sharper,['sensory'],['generic_ache'],False
 something is clenching and ,['unspecified'],['other'],True
 and yanking my whole abdomen,['unspecified'],['other'],True
 It feels like there is a broken G as bottle ,['metaphorical'],['other'],False
@@ -416,7 +416,7 @@ and scrapped around my pelvis.  ,['unspecified'],['other'],True
 Sharp metal grinding against itself,['sensory'],['other'],False
  cogs or machine parts. ,['unspecified'],['other'],True
  Waves of,['unspecified'],['weather'],False
- pulsating pain.,['unspecified'],['other'],True
+ pulsating pain.,['unspecified'],['generic_ache'],False
  Eruptions.,['unspecified'],['other'],True
 my inner organs are being flayed,['unspecified'],['other'],True
 like a sharp knife in inserted and twisted in my womb,"['sensory', 'metaphorical']","['violent_action', 'violence_with_object']",False
