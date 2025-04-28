@@ -1,0 +1,15 @@
+{
+  "dimensions": ["sensory", "affective", "temporal", "metaphorical"],
+  "metaphor_types": ["container", "journey", "force", "temperature", "other"],
+  "keywords": {
+    "sensory":    [],
+    "affective":  [],
+    "temporal":   [],
+    "metaphorical": [],
+    "container":  [],
+    "journey":    [],
+    "force":      [],
+    "temperature":[],
+    "other":      []
+  }
+}
