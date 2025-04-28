@@ -1,122 +1,153 @@
 import pandas as pd
 import re
+import json
 from nltk.stem import PorterStemmer
 
-INPUT_CSV = "pain_tags_input.csv"
-OUTPUT_CSV = "pain_tags_clean.csv"
+# Load taxonomy configuration
+with open('taxonomy.json', 'r') as f:
+    taxonomy = json.load(f)
 
+dimensions = taxonomy['dimensions']
+metaphor_types = taxonomy['metaphor_types']
+raw_keywords = taxonomy['keywords']
+
+# Initialize stemmer and pre-stem keywords for matching
 stemmer = PorterStemmer()
-
-METAPHOR_THEMES = {
-    "conflict": ["battle", "war", "fight", "enemy", "attack", "struggle", "combat", "warrior"],
-    "violent_action": ["tear", "rip", "twist", "pull", "break", "crush", "smash", "pound"],
-    "violence_with_object": ["knife", "blade", "drill", "pierce", "stab", "needle", "dagger", "spear"],
-    "weather": ["storm", "cloud", "wave", "fog", "rain", "wind", "lightning", "thunder", "tsunami", "whirlwind"],
-    "confinement": ["trap", "prison", "cage", "lock", "confine", "chain", "bar", "hold"],
-    "attacking_agents": ["monster", "creature", "beast", "parasite", "demon", "entity", "thing"],
-    "weight_pressure": ["weight", "heavy", "load", "burden", "crush", "press", "sink", "bear"],
-    "heat_temperature": ["fire", "burn", "molten", "scorch", "ice", "freeze", "boil", "sear"],
-    "motion_violent": ["spin", "crash", "tumble", "whirl", "jerk", "convulse", "explode"],
-    "motion_forceful": ["shoot", "surge", "thrust", "radiate", "pulse", "move", "jolt"],
-    "transformative_state": ["black out", "fade", "lose consciousness", "disappear", "melt away", "detach"],
-    "death": ["die", "decay", "lifeless", "rot"],
-    "illness": ["infect", "sicken", "poison", "disease", "inflame", "virus", "spread"],
-    "injury": ["break", "bruise", "bleed", "fracture", "wound", "tear", "scar"],
-    "journey": ["path", "road", "go through", "stuck", "lost", "cross", "wander", "climb"],
-    "childbirth": ["contraction", "push", "labor", "deliver", "birth", "give birth"],
-    "organic_entity": ["grow inside", "root", "plant", "spread", "infest", "burrow"]
+stemmed_keywords = {
+    category: set(stemmer.stem(word.lower()) for word in words)
+    for category, words in raw_keywords.items()
 }
 
-SIMILE_PATTERNS = [
-    r"\bfeels like\b", r"\bas if\b", r"\blike a\b", r"\blike an\b"
-]
+
+def normalize_text(text):
+    """
+    Lowercase, tokenize, and stem the input text.
+    Returns a list of stemmed tokens.
+    """
+    text = str(text).lower()
+    tokens = re.findall(r"\b\w+\b", text)
+    return [stemmer.stem(token) for token in tokens]
 
 
-def stem_text(text):
-    words = re.findall(r"\b\w+\b", text.lower())
-    return set(stemmer.stem(word) for word in words)
-
-
-def detect_metaphor_type(text):
-    text_lower = str(text).lower()
-    simile_flag = any(re.search(pat, text_lower) for pat in SIMILE_PATTERNS)
-    metaphorical = False
-    subtypes = []
-    for theme, keywords in METAPHOR_THEMES.items():
-        for keyword in keywords:
-            if " " in keyword and keyword in text_lower:
-                metaphorical = True
-                subtypes.append(theme)
+def classify_descriptor_rulebased(text):
+    """
+    Classify a descriptor into dimensions and metaphor types
+    using simple keyword matching.
+    """
+    stems = normalize_text(text)
+    # Determine dimensions
+    dims = []
+    for d in dimensions:
+        for kw in stemmed_keywords.get(d, []):
+            if kw in stems:
+                dims.append(d)
                 break
-            elif stemmer.stem(keyword) in stem_text(text_lower):
-                metaphorical = True
-                subtypes.append(theme)
+    # Determine metaphor types
+    mets = []
+    for m in metaphor_types:
+        for kw in stemmed_keywords.get(m, []):
+            if kw in stems:
+                mets.append(m)
                 break
-    if metaphorical or simile_flag:
-        type_label = "simile" if simile_flag else "metaphorical"
-        return type_label, list(set(subtypes))
+    # Fallbacks
+    if not dims:
+        dims = ['unspecified']
+    if not mets:
+        mets = ['other']
+    return dims, mets
+
+
+def batch_process(input_csv, output_csv):
+    """
+    Run rule-based tagging on all descriptors.
+    Flags any items where both dims and mets are fallback values.
+    """
+    df = pd.read_csv(input_csv)
+    # Prepare output columns
+    df['dimensions'] = None
+    df['metaphor_types'] = None
+    df['flag'] = False
+
+    for idx, row in df.iterrows():
+        dims, mets = classify_descriptor_rulebased(row['descriptor'])
+        df.at[idx, 'dimensions'] = dims
+        df.at[idx, 'metaphor_types'] = mets
+        if dims == ['unspecified'] and mets == ['other']:
+            df.at[idx, 'flag'] = True
+
+    df.to_csv(output_csv, index=False)
+    print(f'✅ Batch processing complete. Saved to {output_csv}')
+
+
+def manual_review(output_csv):
+    """
+    Group flagged descriptors and prompt user for manual tagging.
+    """
+    df = pd.read_csv(output_csv)
+    flagged = df[df['flag']]
+    if flagged.empty:
+        print('No flagged items for review!')
+        return
+
+    # Group by normalized text to batch similar entries
+    groups = {}
+    for text in flagged['descriptor']:
+        norm = ' '.join(normalize_text(text))
+        groups.setdefault(norm, []).append(text)
+
+    for norm, texts in groups.items():
+        print(f"\nGroup of similar descriptors:\n{texts}")
+        dims_input = input(f"Enter dimensions (choose from {dimensions}, comma-separated): ")
+        mets_input = input(f"Enter metaphor types (choose from {metaphor_types}, comma-separated): ")
+        dims = [d.strip() for d in dims_input.split(',') if d.strip() in dimensions]
+        mets = [m.strip() for m in mets_input.split(',') if m.strip() in metaphor_types]
+        # Update DataFrame
+        for text in texts:
+            idx = df[df['descriptor'] == text].index
+            df.at[idx, 'dimensions'] = dims
+            df.at[idx, 'metaphor_types'] = mets
+            df.at[idx, 'flag'] = False
+
+    df.to_csv(output_csv, index=False)
+    print(f'✅ Manual review complete. Updated {output_csv}')
+
+
+def add_descriptor(text, output_csv):
+    """
+    Add a new descriptor, auto-tag it, and append to CSV.
+    """
+    df = pd.read_csv(output_csv)
+    # Check for duplicates by normalized form
+    existing_norms = { ' '.join(normalize_text(t)): t for t in df['descriptor'] }
+    norm = ' '.join(normalize_text(text))
+    if norm in existing_norms:
+        print(f"Descriptor already exists: '{existing_norms[norm]}'")
+        return
+
+    dims, mets = classify_descriptor_rulebased(text)
+    flag = dims == ['unspecified'] and mets == ['other']
+    new_row = {'descriptor': text, 'dimensions': dims, 'metaphor_types': mets, 'flag': flag}
+    df = df.append(new_row, ignore_index=True)
+    df.to_csv(output_csv, index=False)
+    print(f"✅ Added and tagged '{text}'. Saved to {output_csv}")
+
+
+if __name__ == '__main__':
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Pain Descriptor Tagging Tool')
+    parser.add_argument('--batch', action='store_true', help='Run batch auto-tagging')
+    parser.add_argument('--review', action='store_true', help='Run manual review on flagged items')
+    parser.add_argument('--add', type=str, metavar='TEXT', help='Add a new descriptor')
+    parser.add_argument('--input', type=str, default='pain_tags_input.csv', help='Input CSV path')
+    parser.add_argument('--output', type=str, default='pain_tags_output.csv', help='Output CSV path')
+    args = parser.parse_args()
+
+    if args.batch:
+        batch_process(args.input, args.output)
+    elif args.review:
+        manual_review(args.output)
+    elif args.add:
+        add_descriptor(args.add, args.output)
     else:
-        return "", []
-
-
-def assign_experience_tags(text):
-    text = str(text).lower()
-    tags = []
-    if any(word in text for word in [
-        "burn", "stab", "shoot", "tight", "crawl", "crush",
-        "fire", "pierce", "pain", "hot", "sting"
-    ]):
-        tags.append("sensory")
-    if any(word in text for word in [
-        "monster", "witch", "frankenstein", "insane",
-        "unravel", "losing my mind", "explode", "volcano"
-    ]):
-        tags.append("affective")
-    if any(word in text for word in [
-        "always", "constant", "sudden", "gradual", "never ends", "won't stop", "creeping"
-    ]):
-        tags.append("temporal")
-    return tags
-
-
-def prioritize_experience(tags):
-    if "affective" in tags:
-        return "affective"
-    elif "sensory" in tags:
-        return "sensory"
-    elif "temporal" in tags:
-        return "temporal"
-    return ""
-
-
-def estimate_intensity(text):
-    text = str(text).lower()
-    if any(word in text for word in [
-        "stab", "explode", "burning", "crushed", "shooting", "severe"
-    ]):
-        return "high"
-    elif any(word in text for word in [
-        "tight", "sharp", "dull", "pounding", "nagging", "throbbing"
-    ]):
-        return "medium"
-    elif any(word in text for word in [
-        "flutter", "tingling", "light", "buzz", "flicker"
-    ]):
-        return "low"
-    return ""
-
-
-def run_auto_tagger(input_path=INPUT_CSV, output_path=OUTPUT_CSV):
-    df = pd.read_csv(input_path)
-    df["metaphor_type"], df["metaphor_subtypes"] = zip(
-        *df["feels like…"].apply(detect_metaphor_type))
-    df["experience_tags"] = df["feels like…"].apply(assign_experience_tags)
-    df["salient_experience"] = df["experience_tags"].apply(
-        prioritize_experience)
-    df["intensity_level"] = df["feels like…"].apply(estimate_intensity)
-    df.to_csv(output_path, index=False)
-    print(f"✅ Auto-tagging complete. File saved as: {output_path}")
-
-
-if __name__ == "__main__":
-    run_auto_tagger()
+        print("Please specify an action: --batch, --review, or --add")
