@@ -62,7 +62,7 @@ a cripple,['unspecified'],['motion_forceful'],False
 I was punched in the stomach,['unspecified'],['other'],True
 someone is scraping me inside with razor blades,['unspecified'],['violence_with_object'],False
 something is pushing on my bladder,['unspecified'],['childbirth'],False
- death. I swear I could see the light. ,['unspecified'],['other'],True
+ death. I swear I could see the light. ,['unspecified'],['sense_impairment'],False
 I'm 100. Turning this ship around one step at a time. ,['unspecified'],['other'],True
 air bubbles moving up and down in my back and chest,['unspecified'],['other'],True
 I am not getting a great breath in,['unspecified'],['other'],True
@@ -79,7 +79,7 @@ someone is stabbing up inside my rectum with a knife...brings me to tears everyt
 what a baby feels like ,['metaphorical'],['other'],False
 everything in my tummy is falling out when I walk,['unspecified'],['other'],True
 ripping my insides out,['unspecified'],['violent_action'],False
-I did a lot of crunches,['unspecified'],['other'],True
+I did a lot of crunches,['unspecified'],['physical_exertion'],False
 my bladder is going to burst,['unspecified'],['weight_pressure'],False
 labor pains continuous for 7-10 days a month,['unspecified'],"['childbirth', 'generic_ache']",False
 I have a coathanger pulling my insides out,['unspecified'],['violent_action'],False
@@ -114,8 +114,8 @@ I lose my sense of self,['unspecified'],['transformative_state'],False
 I was trying to give birth to a pineapple,['unspecified'],['childbirth'],False
 I had an operation ...just a general tenderness,['unspecified'],['generic_ache'],False
 I'm in labour …I'm giving birth,['unspecified'],['childbirth'],False
-I've been run over,['unspecified'],['other'],True
-"I've just done a 12 hour shift on the ward, when I've just woken up",['unspecified'],['other'],True
+I've been run over,['unspecified'],['physical_exertion'],False
+"I've just done a 12 hour shift on the ward, when I've just woken up",['unspecified'],['physical_exertion'],False
 l'm going to shit out my insides ,['unspecified'],['other'],True
 a hot poker or ,['unspecified'],['heat_temperature'],False
  a knife being shoved inside me,['unspecified'],['violence_with_object'],False
@@ -126,7 +126,7 @@ you're burning but on the inside,['sensory'],['heat_temperature'],False
 it's very mechanical,['unspecified'],['violence_with_object'],False
 unnatural for the environment,['unspecified'],['transformative_state'],False
 sort of beyond human consciousness ,['unspecified'],['other'],True
-someone's just opened turned all the lights on. And you can see and breathe ,['unspecified'],['other'],True
+someone's just opened turned all the lights on. And you can see and breathe ,['unspecified'],['sense_impairment'],False
 somebody's twisting me,['unspecified'],['violent_action'],False
 scraping,['unspecified'],['violence_with_object'],False
 two discs or cogs or something like that,['metaphorical'],['other'],False
@@ -162,18 +162,18 @@ something's going to pop,['unspecified'],['other'],True
 someone actually burning your skin,['sensory'],['heat_temperature'],False
 there was a burning golfball just inside me,['sensory'],['heat_temperature'],False
 there's some kind of physical force,['unspecified'],['other'],True
-this buzzing thing.,['unspecified'],['other'],True
+this buzzing thing.,['unspecified'],['sense_impairment'],False
 screws tightening,['unspecified'],['motion_violent'],False
 transcendental. Yeah yeah and nothing else matters. But not in a good way. ,['unspecified'],['other'],True
 waves ,['unspecified'],['weather'],False
 someone punching my cervix,['unspecified'],['other'],True
 contractions,['unspecified'],['childbirth'],False
-you can't hear anything,['unspecified'],['other'],True
+you can't hear anything,['unspecified'],['sense_impairment'],False
 something pulsing,['unspecified'],['motion_forceful'],False
 your insides are exploding,['unspecified'],['motion_violent'],False
 somebody wants to make it explode somehow,['unspecified'],['motion_violent'],False
 metal wool on the inside of your stomach ,['unspecified'],['violence_with_object'],False
-when someone has long nails against a chalk board,['unspecified'],['other'],True
+when someone has long nails against a chalk board,['unspecified'],['sense_impairment'],False
 you want to die,['unspecified'],['death'],False
 my insides were being pulled out through me,['unspecified'],['violent_action'],False
 you're dragging your insides,['unspecified'],['motion_forceful'],False
@@ -221,7 +221,7 @@ there's a balloon inflated inside me ,['unspecified'],['weight_pressure'],False
 A t-rex has been unleashed on my insides,['unspecified'],['other'],True
 a vice is gripping my insides and if I move the vice gets tighter,['unspecified'],['violent_action'],False
 my insides are swollen and trying to escape,['unspecified'],['other'],True
-a hedgehog is running around my uterus,['unspecified'],['other'],True
+a hedgehog is running around my uterus,['unspecified'],['physical_exertion'],False
 I just want to rip my insides out,['unspecified'],['violent_action'],False
 there's a hot coal rollin around in my uterus,['unspecified'],['heat_temperature'],False
 my internal organs try to strangle each other,['unspecified'],['other'],True
@@ -304,7 +304,7 @@ I'm being stabbed in the stomach ,['unspecified'],['violence_with_object'],False
 or someone is grabbing my insides,['unspecified'],['violence_with_object'],False
 red hot pokers inside my tummy ,['unspecified'],['heat_temperature'],False
 being twisted constantly ,['unspecified'],['violent_action'],False
-"I did a million crunches, ",['unspecified'],['other'],True
+"I did a million crunches, ",['unspecified'],['physical_exertion'],False
 and like i haven't slept for days ,['metaphorical'],['other'],False
 "Everything feels angry, ",['unspecified'],['other'],True
 and on fire. ,['unspecified'],['heat_temperature'],False
@@ -317,7 +317,7 @@ being tattooed on the inside.,['unspecified'],['other'],True
 Some scratching my insides,['unspecified'],['other'],True
 a knife was piercing it.,['unspecified'],['violence_with_object'],False
 being stabbed with safety scissors from the inside ,['unspecified'],['violence_with_object'],False
-you just ran a marathon and need to lie down. ,['unspecified'],['other'],True
+you just ran a marathon and need to lie down. ,['unspecified'],['physical_exertion'],False
 Sometimes it feels like a hot poker ,['metaphorical'],['other'],False
 or barbed wire is inside,['unspecified'],['other'],True
 a charly horse ,['unspecified'],['other'],True
