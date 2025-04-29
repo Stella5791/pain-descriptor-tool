@@ -3,10 +3,10 @@ descriptor,dimensions,metaphor_types,flag
 black cloud that I was in,['sensory'],"['weather', 'transformative_state']",False
 my womb is so tight that its about to explode at any moment.,['sensory'],['motion_violent'],False
 its really tight ,['sensory'],['weight_pressure'],False
-I'm on a boat in very choppy waters. ,"['affective', 'metaphorical']",['violent_motion'],False
+I'm on a boat in very choppy waters. ,['affective'],['violent_motion'],False
 its going to burst ,['sensory'],['weight_pressure'],False
-it's crawling ,"['sensory', 'metaphorical']",['organic_entity'],False
-the nagging feeling of ,"['affective', 'metaphorical']",['attacking_agents'],False
+it's crawling ,['sensory'],['organic_entity'],False
+the nagging feeling of ,['affective'],['attacking_agents'],False
 clitoral throbbing ,['sensory'],['other'],False
 I'm carrying a 5 pound weight in my abdomen all the time,['temporal'],"['violent_action', 'weight_pressure']",False
  goes to my back and left hip and radiates down my leg,['sensory'],['motion_forceful'],False
@@ -17,12 +17,12 @@ ur peeing acid,['sensory'],['heat_temperature'],False
 I have paper cuts all over inside,['sensory'],['violence_with_object'],False
 "my ovaries are gonna explode, ",['sensory'],['motion_violent'],False
 shoots into my back ,['sensory'],['motion_forceful'],False
-like tingling electric shocks,"['sensory', 'metaphorical']",['other'],False
+like tingling electric shocks,['sensory'],['other'],False
 it is gonna rip apart,['sensory'],['violent_action'],False
 I have to push something out,['sensory'],['childbirth'],False
 [my ovaries] they're gonna tear apart ,['sensory'],"['violent_action', 'injury']",False
-on top of blowing up,"['sensory', 'metaphorical']",['weight_pressure'],False
-"there bruised badly, like someones pressing the bruise ",['metaphorical'],"['weight_pressure', 'injury']",False
+on top of blowing up,['sensory'],['weight_pressure'],False
+"there bruised badly, like someones pressing the bruise ",[],"['weight_pressure', 'injury']",False
 its hurts to breath,['sensory'],['generic_ache'],False
 its gonna rip apart and blow up,['sensory'],['violent_action'],False
 I had very tiny people in there with ropes tied tightly around my insides and pulling down,['sensory'],['violent_action'],False
@@ -31,20 +31,20 @@ and then dumped in a bucket full of hot coals. ,['sensory'],['heat_temperature']
 a blister,['sensory'],['heat_temperature'],False
 my uterus is being stabbed,['sensory'],['violence_with_object'],False
 someone was twisting my insides,['sensory'],['violent_action'],False
-I've been kicked in the gut,"['sensory', 'metaphorical']",['violent_action'],False
+I've been kicked in the gut,['sensory'],['violent_action'],False
 coupled with burning  ,['sensory'],['heat_temperature'],False
 blisters ,['sensory'],['heat_temperature'],False
-that are about to pop,"['sensory', 'metaphorical']",['weight_pressure'],False
-seeth,"['sensory', 'metaphorical']",['heat_temperature'],False
+that are about to pop,['sensory'],['weight_pressure'],False
+seeth,['sensory'],['heat_temperature'],False
 someone has a hold of my insides and,['sensory'],['confinement'],False
- is trying to wring them out like you would with with a wet towel. ,['metaphorical'],['other'],False
-someone has sucker punched me square in the stomach,"['sensory', 'metaphorical']",['violent_action'],False
-my insides are literally going to fall out,"['sensory', 'metaphorical']",['motion_forceful'],False
+ is trying to wring them out like you would with with a wet towel. ,[],['other'],False
+someone has sucker punched me square in the stomach,['sensory'],['violent_action'],False
+my insides are literally going to fall out,['sensory'],['motion_forceful'],False
 my internal organs are being squeezed and twisted,['sensory'],['violent_action'],False
  and twisted,['sensory'],['violent_action'],False
 it is being ripped out of you body,['sensory'],['violent_action'],False
 there is a string attached from my belly button to my clitoris and when I stand/sit up that string is pulling,['sensory'],['violent_action'],False
-like my insides are tearing,['metaphorical'],"['violent_action', 'injury']",False
+like my insides are tearing,[],"['violent_action', 'injury']",False
 my insides are tearing,['sensory'],"['violent_action', 'injury']",False
 u are being squeezed around the upper abdomen,['sensory'],['violence_with_object'],False
 makes me imagine a small blade,['sensory'],['violence_with_object'],False
@@ -52,34 +52,34 @@ my womb had blown up and i cant bear to touch the area,['sensory'],['weight_pres
 someone is stabbing me in my left side,['sensory'],['violence_with_object'],False
 someone has stabbed me ,['sensory'],['violence_with_object'],False
 my stomach and intestines were spasming,['sensory'],['generic_ache'],False
-I'm in the last stages of labour ,"['sensory', 'metaphorical']",['childbirth'],False
-things are falling out of me,"['sensory', 'metaphorical']",['confinement'],False
-Im rupturing it just by coughing sometimes,"['sensory', 'metaphorical']",['violent_action'],False
+I'm in the last stages of labour ,['sensory'],['childbirth'],False
+things are falling out of me,['sensory'],['confinement'],False
+Im rupturing it just by coughing sometimes,['sensory'],['violent_action'],False
 things are being ripped or ,['sensory'],['violent_action'],False
- like I'm being stabbed.,['metaphorical'],['violence_with_object'],False
+ like I'm being stabbed.,[],['violence_with_object'],False
 a cripple,['sensory'],['motion_forceful'],False
 "a sword is going in, and after my left side will swell up ",['sensory'],['violence_with_object'],False
-I was punched in the stomach,"['sensory', 'metaphorical']",['violent_action'],False
+I was punched in the stomach,['sensory'],['violent_action'],False
 someone is scraping me inside with razor blades,['sensory'],['violence_with_object'],False
 something is pushing on my bladder,['sensory'],['childbirth'],False
- death. I swear I could see the light. ,"['affective', 'metaphorical']",['death'],False
+ death. I swear I could see the light. ,['affective'],['death'],False
 I'm 100. Turning this ship around one step at a time. ,['temporal'],['physical_exertion'],False
-air bubbles moving up and down in my back and chest,"['sensory', 'metaphorical']",['motion_forceful'],False
-I am not getting a great breath in,"['sensory', 'metaphorical']",['illness'],False
+air bubbles moving up and down in my back and chest,['sensory'],['motion_forceful'],False
+I am not getting a great breath in,['sensory'],['illness'],False
  a pulled muscle,['sensory'],['violent_action'],False
 a dragging sensation,['sensory'],['motion_forceful'],False
 I am 9 months pregnant,['sensory'],['childbirth'],False
 Horrible bearing down pressure ,['sensory'],['weight_pressure'],False
-contraction-like stabbing pain,['metaphorical'],"['violence_with_object', 'childbirth', 'generic_ache']",False
-I've been shot in the stomach,"['sensory', 'metaphorical']",['violence_with_object'],False
-there's an elephant sitting on my chest,"['sensory', 'metaphorical']",['weight_pressure'],False
+contraction-like stabbing pain,[],"['violence_with_object', 'childbirth', 'generic_ache']",False
+I've been shot in the stomach,['sensory'],['violence_with_object'],False
+there's an elephant sitting on my chest,['sensory'],['weight_pressure'],False
 to carry a baby and ,['sensory'],['childbirth'],False
- have its feet sticking up under your ribs,"['sensory', 'metaphorical']",['attacking_agents'],False
+ have its feet sticking up under your ribs,['sensory'],['attacking_agents'],False
 someone is stabbing up inside my rectum with a knife...brings me to tears everytime ,['sensory'],"['violent_action', 'violence_with_object', 'injury']",False
-what a baby feels like ,['metaphorical'],['other'],False
-everything in my tummy is falling out when I walk,"['sensory', 'metaphorical']",['confinement'],False
+what a baby feels like ,[],['other'],False
+everything in my tummy is falling out when I walk,['sensory'],['confinement'],False
 ripping my insides out,['sensory'],['violent_action'],False
-I did a lot of crunches,"['affective', 'metaphorical']",['physical_exertion'],False
+I did a lot of crunches,['affective'],['physical_exertion'],False
 my bladder is going to burst,['sensory'],['weight_pressure'],False
 labor pains continuous for 7-10 days a month,['sensory'],"['childbirth', 'generic_ache']",False
 I have a coathanger pulling my insides out,['sensory'],['violent_action'],False
@@ -87,64 +87,64 @@ a balloon swelling up inside you ,['sensory'],['weight_pressure'],False
 "a big, a lump of coal",['sensory'],['heat_temperature'],False
 a furnace in your belly,['sensory'],['heat_temperature'],False
 a hot cross bun on my stomach,['sensory'],['journey'],False
-someone putting an iron to ,"['sensory', 'metaphorical']",['heat_temperature'],False
-"a huge muscle,like the worst muscle cramp ",['metaphorical'],['other'],False
+someone putting an iron to ,['sensory'],['heat_temperature'],False
+"a huge muscle,like the worst muscle cramp ",[],['other'],False
 you're burning but on the inside,['sensory'],['heat_temperature'],False
-a pumpkin ,"['sensory', 'metaphorical']",['weight_pressure'],False
+a pumpkin ,['sensory'],['weight_pressure'],False
 a real shooting pain front to back with a knitting needle,['sensory'],"['violence_with_object', 'motion_forceful', 'generic_ache']",False
 a screw is being tightened ,['sensory'],['motion_violent'],False
 "a thin, sharp needle right through",['sensory'],['violence_with_object'],False
-but like someone's cutting you ,['metaphorical'],['other'],False
+but like someone's cutting you ,[],['other'],False
 a twisting,['sensory'],['violent_action'],False
 everything's just pulling down,['sensory'],['violent_action'],False
 my whole body can be in pain at the same time. ,"['sensory', 'temporal']",['generic_ache'],False
 a storm that passes through your body ,['sensory'],['weather'],False
-agonising,"['affective', 'metaphorical']",['generic_ache'],False
-amnesia ...because my talking brain stops being charge an,"['affective', 'metaphorical']",['transformative_state'],False
+agonising,['affective'],['generic_ache'],False
+amnesia ...because my talking brain stops being charge an,['affective'],['transformative_state'],False
 pushing everything out and away,['sensory'],['childbirth'],False
 someone gripping the botto,['sensory'],['violent_action'],False
 a whole body pain,['sensory'],['generic_ache'],False
 being ripped out ,['sensory'],['violent_action'],False
 burst out ,['sensory'],['weight_pressure'],False
-claws around my womb,"['sensory', 'metaphorical']",['attacking_agents'],False
-I'm doomed,"['affective', 'metaphorical']",['death'],False
+claws around my womb,['sensory'],['attacking_agents'],False
+I'm doomed,['affective'],['death'],False
 having a hot poker planted inside of your stomach,['sensory'],['organic_entity'],False
 I had a balloon,['sensory'],['weight_pressure'],False
 I lose my sense of self,['sensory'],['transformative_state'],False
 I was trying to give birth to a pineapple,['sensory'],['childbirth'],False
 I had an operation ...just a general tenderness,['sensory'],['generic_ache'],False
 I'm in labour …I'm giving birth,['sensory'],['childbirth'],False
-I've been run over,"['sensory', 'metaphorical']",['violence_with_object'],False
-"I've just done a 12 hour shift on the ward, when I've just woken up","['affective', 'metaphorical']",['physical_exertion'],False
-l'm going to shit out my insides ,"['sensory', 'metaphorical']",['confinement'],False
+I've been run over,['sensory'],['violence_with_object'],False
+"I've just done a 12 hour shift on the ward, when I've just woken up",['affective'],['physical_exertion'],False
+l'm going to shit out my insides ,['sensory'],['confinement'],False
 a hot poker or ,['sensory'],['heat_temperature'],False
  a knife being shoved inside me,['sensory'],['violence_with_object'],False
 it radiates to my knee ,['sensory'],['motion_forceful'],False
 a muscular pain,['sensory'],['generic_ache'],False
-tunnel vision,"['sensory', 'metaphorical']",['sense_impairement'],False
+tunnel vision,['sensory'],['sense_impairement'],False
 you're burning but on the inside,['sensory'],['heat_temperature'],False
 it's very mechanical,['sensory'],['violence_with_object'],False
 unnatural for the environment,['sensory'],['transformative_state'],False
-sort of beyond human consciousness ,"['affective', 'metaphorical']",['transformative_state'],False
-someone's just opened turned all the lights on. And you can see and breathe ,"['affective', 'metaphorical']",['sense_impairement'],False
+sort of beyond human consciousness ,['affective'],['transformative_state'],False
+someone's just opened turned all the lights on. And you can see and breathe ,['affective'],['sense_impairement'],False
 somebody's twisting me,['sensory'],['violent_action'],False
 scraping,['sensory'],['violence_with_object'],False
-two discs or cogs or something like that,['metaphorical'],['other'],False
+two discs or cogs or something like that,[],['other'],False
 radiating from the centre,['sensory'],['motion_forceful'],False
-machine. ,"['sensory', 'metaphorical']",['violence_with_object'],False
+machine. ,['sensory'],['violence_with_object'],False
 metal against metal,['sensory'],['violence_with_object'],False
 sparks even,['sensory'],['heat_temperature'],False
- just like grinding against,['metaphorical'],['other'],False
+ just like grinding against,[],['other'],False
 my insides were being pulled out through me,['sensory'],['violent_action'],False
-my ovary is going ba boom ba boom ba boom,"['sensory', 'metaphorical']",['weight_pressure'],False
+my ovary is going ba boom ba boom ba boom,['sensory'],['weight_pressure'],False
 my womb is going to explode,['sensory'],['motion_violent'],False
 there's a thousand tiny men stabbing at it [my womb],['sensory'],['violence_with_object'],False
 possesses you  ,['sensory'],['transformative_state'],False
 ripped out ,['sensory'],['violent_action'],False
 my insides were trying to kill me ,['sensory'],['attacking_agents'],False
-somebody has taken hold of the inside of my ribcage and sort of my right side and is just like ,['metaphorical'],['confinement'],False
-somebody putting barbed wire through your belly button,"['sensory', 'metaphorical']",['violence_with_object'],False
- in a figure of eight around your pelvis ,"['sensory', 'metaphorical']",['violence_with_object'],False
+somebody has taken hold of the inside of my ribcage and sort of my right side and is just like ,[],['confinement'],False
+somebody putting barbed wire through your belly button,['sensory'],['violence_with_object'],False
+ in a figure of eight around your pelvis ,['sensory'],['violence_with_object'],False
 having a hot poker planted inside of your stomach,['sensory'],['organic_entity'],False
 somebody wants to make it explode somehow,['sensory'],['motion_violent'],False
 somebody's given you an electric shock,['sensory'],['heat_temperature'],False
@@ -154,44 +154,44 @@ and crushing my spine continuously for two years,['sensory'],['violent_action'],
 someone had shoved a poker up your backside ,['sensory'],['heat_temperature'],False
 "someone is in your insides, pulling everything to bits ",['sensory'],['violent_action'],False
 "someone putting a knitting needle through front to back, just straight through",['sensory'],['violence_with_object'],False
-someone putting an iron to your back and it's hot and it actually feels like your skin's,['metaphorical'],['other'],False
+someone putting an iron to your back and it's hot and it actually feels like your skin's,[],['other'],False
 someone squeezing your insides,['sensory'],['violence_with_object'],False
 someone was twisting a knife inside me and...kind of winded me,['sensory'],"['violent_action', 'violence_with_object', 'weather']",False
 someone's cutting you ,['sensory'],['violence_with_object'],False
-something's going to pop,"['sensory', 'metaphorical']",['weight_pressure'],False
+something's going to pop,['sensory'],['weight_pressure'],False
 someone actually burning your skin,['sensory'],['heat_temperature'],False
 there was a burning golfball just inside me,['sensory'],['heat_temperature'],False
-there's some kind of physical force,"['sensory', 'metaphorical']",['transformative_state'],False
-this buzzing thing.,"['sensory', 'metaphorical']",['sense_impairement'],False
+there's some kind of physical force,['sensory'],['transformative_state'],False
+this buzzing thing.,['sensory'],['sense_impairement'],False
 screws tightening,['sensory'],['motion_violent'],False
-transcendental. Yeah yeah and nothing else matters. But not in a good way. ,"['affective', 'metaphorical']",['transformative_state'],False
+transcendental. Yeah yeah and nothing else matters. But not in a good way. ,['affective'],['transformative_state'],False
 waves ,['sensory'],['weather'],False
-someone punching my cervix,"['affective', 'metaphorical']",['violent_action'],False
+someone punching my cervix,['affective'],['violent_action'],False
 contractions,['sensory'],['childbirth'],False
-you can't hear anything,"['affective', 'metaphorical']",['sense_impairement'],False
+you can't hear anything,['affective'],['sense_impairement'],False
 something pulsing,['sensory'],['motion_forceful'],False
 your insides are exploding,['sensory'],['motion_violent'],False
 somebody wants to make it explode somehow,['sensory'],['motion_violent'],False
 metal wool on the inside of your stomach ,['sensory'],['violence_with_object'],False
-when someone has long nails against a chalk board,"['affective', 'metaphorical']",['sense_impairement'],False
+when someone has long nails against a chalk board,['affective'],['sense_impairement'],False
 you want to die,['sensory'],['death'],False
 my insides were being pulled out through me,['sensory'],['violent_action'],False
 you're dragging your insides,['sensory'],['motion_forceful'],False
-your insides are gonna fall out on the floor,"['sensory', 'metaphorical']",['confinement'],False
+your insides are gonna fall out on the floor,['sensory'],['confinement'],False
 "you're in the early stages of labour, sort of puffing and panting, contracting, burning",['sensory'],"['heat_temperature', 'childbirth']",False
-you're being carved out like a pumpkin,['metaphorical'],['other'],False
+you're being carved out like a pumpkin,[],['other'],False
 you're burning but on the inside,['sensory'],['heat_temperature'],False
 toothache pain in your back,['sensory'],['generic_ache'],False
 your insides are exploding,['sensory'],['motion_violent'],False
-your insides are gonna fall out on the floor,"['sensory', 'metaphorical']",['confinement'],False
-your ovaries are just gonna like burst out  ,['metaphorical'],['other'],False
+your insides are gonna fall out on the floor,['sensory'],['confinement'],False
+your ovaries are just gonna like burst out  ,[],['other'],False
 your skin's hot but it's on the inside,['sensory'],['heat_temperature'],False
-someone is inside of me,"['sensory', 'metaphorical']",['attacking_agents'],False
+someone is inside of me,['sensory'],['attacking_agents'],False
 "someone's driven a knife into my side, or",['sensory'],['violence_with_object'],False
 hammered or ,['sensory'],['violence_with_object'],False
  screwed ,['sensory'],['motion_violent'],False
 a storm that passes through your body  ,['sensory'],['weather'],False
-Someone taking a rake to my uterus or ,"['sensory', 'metaphorical']",['violence_with_object'],False
+Someone taking a rake to my uterus or ,['sensory'],['violence_with_object'],False
 someone stabbing me repeatedly with a large knife,['sensory'],['violence_with_object'],False
 there is a large knife/sword just sticking in my side at all times,['temporal'],['violence_with_object'],False
 something is stuck in my abdomen but it has no way of getting out,['sensory'],['journey'],False
@@ -202,72 +202,72 @@ with vice grips,['sensory'],['violent_action'],False
 heavy as a bowling ball ,['sensory'],['weight_pressure'],False
  pressing against my bowels,['sensory'],['weight_pressure'],False
 I thought I was losing my mind,['sensory'],['transformative_state'],False
-tiny men playing,"['sensory', 'metaphorical']",['attacking_agents'],False
+tiny men playing,['sensory'],['attacking_agents'],False
  tug-a-war ,['sensory'],['conflict'],False
-with barb wire,"['sensory', 'metaphorical']",['violence_with_object'],False
+with barb wire,['sensory'],['violence_with_object'],False
 a knife jabbed in your stomach,['sensory'],['violence_with_object'],False
 I feel chained down by my flesh prison,['sensory'],['confinement'],False
 being gutted by an invisible knife for 5 days,['sensory'],['violence_with_object'],False
 someone is squeezing or,['sensory'],['violence_with_object'],False
-jabbing my womb and at times like my womb is trying to pull away from my body,['metaphorical'],['violent_action'],False
+jabbing my womb and at times like my womb is trying to pull away from my body,[],['violent_action'],False
 a rake or a cheese grater is scraping my insides,['sensory'],['violence_with_object'],False
-like my abdomen is filed with blood and could burst open,['metaphorical'],['other'],False
+like my abdomen is filed with blood and could burst open,[],['other'],False
 a heavy weight in your pelvis & upper legs is puling you down,['sensory'],['weight_pressure'],False
 my insides are being ripped apart when i walk ,['sensory'],['violent_action'],False
 knitting needles being pushed through your abdomen,['sensory'],"['violence_with_object', 'childbirth']",False
 if I move I'll rip,['sensory'],['violent_action'],False
 there's a balloon inflated inside me ,['sensory'],['weight_pressure'],False
  squashing everything and putting pressure on my bladder and other organs,['sensory'],['violence_with_object'],False
-A t-rex has been unleashed on my insides,"['sensory', 'metaphorical']",['attacking_agents'],False
+A t-rex has been unleashed on my insides,['sensory'],['attacking_agents'],False
 a vice is gripping my insides and if I move the vice gets tighter,['sensory'],['violent_action'],False
-my insides are swollen and trying to escape,"['sensory', 'metaphorical']",['confinement'],False
-a hedgehog is running around my uterus,"['sensory', 'metaphorical']",['violent_motion'],False
+my insides are swollen and trying to escape,['sensory'],['confinement'],False
+a hedgehog is running around my uterus,['sensory'],['violent_motion'],False
 I just want to rip my insides out,['sensory'],['violent_action'],False
 there's a hot coal rollin around in my uterus,['sensory'],['heat_temperature'],False
-my internal organs try to strangle each other,"['sensory', 'metaphorical']",['violent_action'],False
+my internal organs try to strangle each other,['sensory'],['violent_action'],False
 My insides are on fire.,['sensory'],['heat_temperature'],False
-I'm not just under the weather. I'm the Wicked Witch of the East UNDER the house the weather threw at me,"['affective', 'metaphorical']",['transformative_state'],False
+I'm not just under the weather. I'm the Wicked Witch of the East UNDER the house the weather threw at me,['affective'],['transformative_state'],False
 "a violent, sporadic, samurai sword massacre in & around your delicates. ",['sensory'],['violence_with_object'],False
 a ninja is cutting apart my insides ,['sensory'],['violence_with_object'],False
-a swarm of angry european wasps invade your uterus,"['sensory', 'metaphorical']",['attacking_agents'],False
-my uterus and other pelvic organs are trying to claw their way out.  ,"['sensory', 'metaphorical']",['violent_action'],False
+a swarm of angry european wasps invade your uterus,['sensory'],['attacking_agents'],False
+my uterus and other pelvic organs are trying to claw their way out.  ,['sensory'],['violent_action'],False
 Sometimes using a white hot poker. ,['sensory'],['heat_temperature'],False
 Uterus will feel heavy,['sensory'],['weight_pressure'],False
 you peeled a grape and the remaining flesh is painful,['sensory'],['generic_ache'],False
 waves of cramp,['sensory'],['weather'],False
-my internal organs have been pulverized,"['sensory', 'metaphorical']",['violent_action'],False
+my internal organs have been pulverized,['sensory'],['violent_action'],False
 I am in labour but without having a break between contractions,['sensory'],"['injury', 'childbirth']",False
-my organs are going to fall out of my vagina,"['sensory', 'metaphorical']",['confinement'],False
+my organs are going to fall out of my vagina,['sensory'],['confinement'],False
 something is bursting to get out.,['sensory'],['weight_pressure'],False
 someone has stabbed me in the stomach,['sensory'],['violence_with_object'],False
-my insides are being rung out,"['sensory', 'metaphorical']",['violent_action'],False
+my insides are being rung out,['sensory'],['violent_action'],False
 my insides are twisting ,['sensory'],['violent_action'],False
 when I walk then ripping inside me,['sensory'],['violent_action'],False
-Insides falling out ,"['sensory', 'metaphorical']",['confinement'],False
+Insides falling out ,['sensory'],['confinement'],False
 while on fire ,['sensory'],['heat_temperature'],False
 with acid.,['sensory'],['heat_temperature'],False
 someone is just slowly sinking burning things into me,['sensory'],"['weight_pressure', 'heat_temperature']",False
 and twisting them around and around. ,['sensory'],['violent_action'],False
 " I'm carrying knives in my uterus, and if I bend over I'm stabbed deeper",['sensory'],['violence_with_object'],False
 there's a demon inside trying to claw it's way out.,['sensory'],['attacking_agents'],False
-a stitch I got years ago. ,"['sensory', 'metaphorical']",['confinement'],False
+a stitch I got years ago. ,['sensory'],['confinement'],False
 lots of needles cramping up inside of my pelvis,['sensory'],['violence_with_object'],False
 somebody is pulling your pelvic down so strongly,['sensory'],['violent_action'],False
 sharp knives or ,['sensory'],['other'],False
 an electric shock playing in the pelvic area.,['sensory'],['heat_temperature'],False
-"Glass shards,","['sensory', 'metaphorical']",['violence_with_object'],False
+"Glass shards,",['sensory'],['violence_with_object'],False
  electric shocks,['sensory'],['heat_temperature'],False
 someone is twisting my insides and won't let their grip go. ,['sensory'],['violent_action'],False
 It's a warm feeling the spreads throughout the back and abdomen.,['sensory'],"['illness', 'organic_entity']",False
 someone is ripping my insides out ,['sensory'],['violent_action'],False
 with barbwire ,['sensory'],['violence_with_object'],False
 a pressure or soreness with stabs of pain in the uterus area. ,['sensory'],"['violence_with_object', 'generic_ache']",False
-something is shuddering inside,"['sensory', 'metaphorical']",['violent_motion'],False
+something is shuddering inside,['sensory'],['violent_motion'],False
 someone has shoved a sword or a poker into me jabbing away. ,['sensory'],"['violence_with_object', 'heat_temperature']",False
-when a cat steps on your full bladder but heavier and you don't need a wee.,"['sensory', 'metaphorical']",['weight_pressure'],False
-an elephant is sitting on my abdomen sometimes,"['sensory', 'metaphorical']",['weight_pressure'],False
-"a toxic, flesh-eating pufferfish ","['sensory', 'metaphorical']",['attacking_agents'],False
-"pulsating inside me,","['sensory', 'metaphorical']",['violent_motion'],False
+when a cat steps on your full bladder but heavier and you don't need a wee.,['sensory'],['weight_pressure'],False
+an elephant is sitting on my abdomen sometimes,['sensory'],['weight_pressure'],False
+"a toxic, flesh-eating pufferfish ",['sensory'],['attacking_agents'],False
+"pulsating inside me,",['sensory'],['violent_motion'],False
  scraping away at me. ,['sensory'],['violence_with_object'],False
 an army of molten spiders are strolling around ,['sensory'],['heat_temperature'],False
 an army of molten spiders are strolling around ,['sensory'],['heat_temperature'],False
@@ -279,8 +279,8 @@ being crushed.,['sensory'],['violent_action'],False
 someone has a hold of your pelvis/cervix and are pulling really hard.,['sensory'],"['violent_action', 'confinement']",False
 "I'm being stabbed,",['sensory'],['violence_with_object'],False
  ripped apart,['sensory'],['violent_action'],False
- punched all at once. ,"['sensory', 'metaphorical']",['violent_action'],False
-It burns like the skin is being pulled away.,"['sensory', 'metaphorical']","['violent_action', 'heat_temperature']",False
+ punched all at once. ,['sensory'],['violent_action'],False
+It burns like the skin is being pulled away.,['sensory'],"['violent_action', 'heat_temperature']",False
 someone is stabbing me. ,['sensory'],['violence_with_object'],False
 someone is pushing down hard and not letting up.  ,['sensory'],['childbirth'],False
 someone stabbing me repeatedly ,['sensory'],['violence_with_object'],False
@@ -289,45 +289,45 @@ my insides are being ripped apart,['sensory'],['violent_action'],False
 "a bolt of lightning, shoots up my spine when trying to pass bowel movements",['sensory'],"['weather', 'motion_forceful']",False
 when a car I'm in goes over a bump (or even just a non-paved road). ,['sensory'],['journey'],False
 someone with red hot pokers for fingers,['sensory'],['heat_temperature'],False
- dug into my lower abdomen and ,"['sensory', 'metaphorical']",['violence_with_object'],False
+ dug into my lower abdomen and ,['sensory'],['violence_with_object'],False
  is trying to pull my insides out through my vagina.,['sensory'],['violent_action'],False
 "I'm being cut, over and over again in my stomach ",['sensory'],['violence_with_object'],False
 I have loads of gnawing teeth inside trying to eat there way out. ,['sensory'],['weight_pressure'],False
 I am about to give birth to my internal organs.,['sensory'],['childbirth'],False
 something has burst and,['sensory'],['weight_pressure'],False
- it's destroying everything,"['sensory', 'metaphorical']",['violent_action'],False
+ it's destroying everything,['sensory'],['violent_action'],False
  as it spreads,['sensory'],"['illness', 'organic_entity']",False
 someone's slowly trying to rip my organs out,['sensory'],['violent_action'],False
 my insides are wrapped in red-hot,['sensory'],"['confinement', 'heat_temperature']",False
- barbed wire. ,"['sensory', 'metaphorical']",['violence_with_object'],False
+ barbed wire. ,['sensory'],['violence_with_object'],False
 I'm being stabbed in the stomach ,['sensory'],['violence_with_object'],False
 or someone is grabbing my insides,['sensory'],['violence_with_object'],False
 red hot pokers inside my tummy ,['sensory'],['heat_temperature'],False
 being twisted constantly ,['sensory'],['violent_action'],False
-"I did a million crunches, ","['sensory', 'metaphorical']",['physical_exertion'],False
-and like i haven't slept for days ,['metaphorical'],['other'],False
-"Everything feels angry, ","['affective', 'metaphorical']",['attacking_agents'],False
+"I did a million crunches, ",['sensory'],['physical_exertion'],False
+and like i haven't slept for days ,[],['other'],False
+"Everything feels angry, ",['affective'],['attacking_agents'],False
 and on fire. ,['sensory'],['heat_temperature'],False
-Like barbed wire.,['metaphorical'],['other'],False
-there's an alien trying to get out of me.   ,"['sensory', 'metaphorical']",['attacking_agents'],False
-a skewer ,"['sensory', 'metaphorical']",['violence_with_object'],False
+Like barbed wire.,[],['other'],False
+there's an alien trying to get out of me.   ,['sensory'],['attacking_agents'],False
+a skewer ,['sensory'],['violence_with_object'],False
 has been pushed inside of me ,['sensory'],['childbirth'],False
 "and speared through my ovaries, uterus etc. ",['sensory'],['violence_with_object'],False
-being tattooed on the inside.,"['sensory', 'metaphorical']",['violence_with_object'],False
-Some scratching my insides,"['sensory', 'metaphorical']",['violence_with_object'],False
+being tattooed on the inside.,['sensory'],['violence_with_object'],False
+Some scratching my insides,['sensory'],['violence_with_object'],False
 a knife was piercing it.,['sensory'],['violence_with_object'],False
 being stabbed with safety scissors from the inside ,['sensory'],['violence_with_object'],False
-you just ran a marathon and need to lie down. ,"['sensory', 'metaphorical']",['physical_exertion'],False
-Sometimes it feels like a hot poker ,['metaphorical'],['other'],False
-or barbed wire is inside,"['sensory', 'metaphorical']",['violence_with_object'],False
-a charly horse ,"['sensory', 'metaphorical']",['violence_with_object'],False
-an elephant is sitting on my back or stomach,"['sensory', 'metaphorical']",['weight_pressure'],False
+you just ran a marathon and need to lie down. ,['sensory'],['physical_exertion'],False
+Sometimes it feels like a hot poker ,[],['other'],False
+or barbed wire is inside,['sensory'],['violence_with_object'],False
+a charly horse ,['sensory'],['violence_with_object'],False
+an elephant is sitting on my back or stomach,['sensory'],['weight_pressure'],False
 I'm pregnant. ,['sensory'],['childbirth'],False
-a wash cloth being rung out over and over again,"['sensory', 'metaphorical']",['violent_action'],False
+a wash cloth being rung out over and over again,['sensory'],['violent_action'],False
 a hot poker ,['sensory'],['heat_temperature'],False
 is being drilled through me. ,['sensory'],['violence_with_object'],False
 a sharp rod is being forced into my rectum. ,['sensory'],['other'],False
-I'm being turned inside out. ,"['affective', 'metaphorical']",['transformative_state'],False
+I'm being turned inside out. ,['affective'],['transformative_state'],False
 something inside will burst/rupture. ,['sensory'],['weight_pressure'],False
 my pelvic area is always heavy.,['sensory'],['weight_pressure'],False
 blisters  ,['sensory'],['heat_temperature'],False
@@ -335,90 +335,90 @@ Braxton Hicks contractions,['sensory'],['childbirth'],False
 all over body pain when inflamed,['sensory'],"['illness', 'generic_ache']",False
 my lower back and stomach is trying to break free from the rest of my body,['sensory'],['injury'],False
 being stabbed with a rusty ice pick,['sensory'],"['violence_with_object', 'heat_temperature']",False
-my intestines were being tugged out of my anus when I had my period ,"['sensory', 'metaphorical']",['violent_action'],False
-Freddy kugker playing hockey in my stomach. ,"['sensory', 'metaphorical']",['motion_forceful'],False
-hockey in my stomach. ,"['sensory', 'metaphorical']",['motion_forceful'],False
+my intestines were being tugged out of my anus when I had my period ,['sensory'],['violent_action'],False
+Freddy kugker playing hockey in my stomach. ,['sensory'],['motion_forceful'],False
+hockey in my stomach. ,['sensory'],['motion_forceful'],False
 I'm trying to give birth to my spine ,['sensory'],['childbirth'],False
 my insides are battling between themselves ,['sensory'],['conflict'],False
 using sharp tools. ,['sensory'],['other'],False
-somebody is strangling my womb,"['sensory', 'metaphorical']",['violent_action'],False
-"I become possessed by pain, like I am someone else that takes possession of my usual self",['metaphorical'],['generic_ache'],False
-I am outside my body and my consciousness ,"['affective', 'metaphorical']",['transformative_state'],False
+somebody is strangling my womb,['sensory'],['violent_action'],False
+"I become possessed by pain, like I am someone else that takes possession of my usual self",[],['generic_ache'],False
+I am outside my body and my consciousness ,['affective'],['transformative_state'],False
 my uterus/bowel is being squeezed inside a Panini press. ,['sensory'],['weight_pressure'],False
- And sometimes it feels like the panini press have spikes attached,['metaphorical'],['weight_pressure'],False
-someone slowly stretching me apart some days,"['sensory', 'metaphorical']",['violent_action'],False
+ And sometimes it feels like the panini press have spikes attached,[],['weight_pressure'],False
+someone slowly stretching me apart some days,['sensory'],['violent_action'],False
 everything is dragging ,['sensory'],['motion_forceful'],False
-and going to fall out of me. ,"['sensory', 'metaphorical']",['motion_forceful'],False
+and going to fall out of me. ,['sensory'],['motion_forceful'],False
 my ovaries are at war with each other ,['sensory'],['conflict'],False
-Barbed wire and,"['sensory', 'metaphorical']",['violence_with_object'],False
+Barbed wire and,['sensory'],['violence_with_object'],False
 a red hot poker up inside.,['sensory'],['heat_temperature'],False
 someone is smashing me with a hammer and glass,['sensory'],['violent_action'],False
- and glass,"['sensory', 'metaphorical']",['violence_with_object'],False
+ and glass,['sensory'],['violence_with_object'],False
 someone is stabbing me in the vagina ,['sensory'],['violence_with_object'],False
 with a hot poker. ,['sensory'],['heat_temperature'],False
-a concrete block in my stomach weighing me down. ,"['sensory', 'metaphorical']",['weight_pressure'],False
+a concrete block in my stomach weighing me down. ,['sensory'],['weight_pressure'],False
 I have  ball in blown up inside my stomach that's ready to burst ,['sensory'],['weight_pressure'],False
 balloon,['sensory'],['weight_pressure'],False
  has gathered weight and is about to fall out through my bum.  ,['sensory'],['weight_pressure'],False
-It feels like a hot poker is sitting off them .,['metaphorical'],['other'],False
+It feels like a hot poker is sitting off them .,[],['other'],False
 there's an iron bar put up through me. ,['sensory'],['confinement'],False
-a ball of pressure ,"['sensory', 'metaphorical']",['weight_pressure'],False
+a ball of pressure ,['sensory'],['weight_pressure'],False
 someone stabbing ,['sensory'],['violence_with_object'],False
 and cutting my stomach out and body up in 10 pieces.,['sensory'],['violence_with_object'],False
 seriously hot water dripping inside me ,['sensory'],['heat_temperature'],False
  and burning,['sensory'],['heat_temperature'],False
 your insides are ripped out and,['sensory'],['violent_action'],False
- and turned around,"['sensory', 'metaphorical']",['motion_forceful'],False
+ and turned around,['sensory'],['motion_forceful'],False
 someone poured petrol on me and set me on fire. ,['sensory'],['heat_temperature'],False
 Someone took a sharp kitchen knife and stabbed me repeatedly in the groin/pelvis. ,['sensory'],['violence_with_object'],False
 Someone took a red hot poker ,['sensory'],['heat_temperature'],False
 and ripped open my section scar repeatedly.  ,['sensory'],"['violent_action', 'injury']",False
-something is eating me from the inside out.  ,"['sensory', 'metaphorical']",['attacking_agents'],False
+something is eating me from the inside out.  ,['sensory'],['attacking_agents'],False
 A pain that radiates outwards ,['sensory'],"['motion_forceful', 'generic_ache']",False
 "makes me nauseated, dizzy and dissociated from my body.  ",['sensory'],['illness'],False
 my organs are trying to birth themselves through various orrifices. ,['sensory'],['childbirth'],False
-someone took my insides and stepped on them threw them around rode a bike over them and then put back in my body. ,"['sensory', 'metaphorical']",['violence_with_object'],False
+someone took my insides and stepped on them threw them around rode a bike over them and then put back in my body. ,['sensory'],['violence_with_object'],False
 someone is stabbing me the whole time ,['temporal'],['violence_with_object'],False
 I'm being squeezed by a cobra or some big snake and can't move until it loosens up. ,['sensory'],['violence_with_object'],False
 a bruised feeling.,['sensory'],['injury'],False
 tiny blisters on the inside of my body that I would do anything to take out,['sensory'],['heat_temperature'],False
-something has ruptured,"['sensory', 'metaphorical']",['violent_action'],False
-it has come back with a Vengeance to Derail me. ,"['affective', 'metaphorical']",['attacking_agents'],False
+something has ruptured,['sensory'],['violent_action'],False
+it has come back with a Vengeance to Derail me. ,['affective'],['attacking_agents'],False
 someone is grabbing my intestines and ,['sensory'],['violence_with_object'],False
 squeezing/,['sensory'],['violence_with_object'],False
 twisting them.  ,['sensory'],['violent_action'],False
 carpet burns all over my insides.  ,['sensory'],['heat_temperature'],False
 "I have food poisoning, but I know it isn't, it is just morning with bowel endo.  ",['sensory'],['illness'],False
-your insides are going to fall out.,"['sensory', 'metaphorical']",['confinement'],False
-there is a spikey ball rattling around heading off things. ,"['sensory', 'metaphorical']",['violence_with_object'],False
-Like someone is pulling on my belly button from the inside.,['metaphorical'],['violent_action'],False
-a dentist is picking at plaque ,"['sensory', 'metaphorical']",['violence_with_object'],False
+your insides are going to fall out.,['sensory'],['confinement'],False
+there is a spikey ball rattling around heading off things. ,['sensory'],['violence_with_object'],False
+Like someone is pulling on my belly button from the inside.,[],['violent_action'],False
+a dentist is picking at plaque ,['sensory'],['violence_with_object'],False
 there is a knife scraping at my insides.,['sensory'],['violence_with_object'],False
 a hot poker has been inserted inside of me and ,['sensory'],['heat_temperature'],False
 being waved all about and ,['sensory'],['weather'],False
 and stabbing areas at random.,['sensory'],['violence_with_object'],False
 "you have been hit by a car, ",['sensory'],['violence_with_object'],False
  you're internally bruised but nothing to show of it.,['sensory'],['injury'],False
-When I have a bowel motion it feels like passing broken glass. ,['metaphorical'],['other'],False
-When I have period pain it feels like someone is stabbing me in the pelvis with a knife.,['metaphorical'],"['violence_with_object', 'generic_ache']",False
+When I have a bowel motion it feels like passing broken glass. ,[],['other'],False
+When I have period pain it feels like someone is stabbing me in the pelvis with a knife.,[],"['violence_with_object', 'generic_ache']",False
 someone has a knife and is stabbing me up my back passage. ,['sensory'],['violence_with_object'],False
-something is constantly tugging on my left ovary ,"['sensory', 'metaphorical']",['violent_action'],False
+something is constantly tugging on my left ovary ,['sensory'],['violent_action'],False
 toothache but throughout my abdomen.,['sensory'],['generic_ache'],False
-Sometimes being kicked or ,"['sensory', 'metaphorical']",['violent_action'],False
- or something being forcefully jammed in the vagina.,"['sensory', 'metaphorical']",['violence_with_object'],False
+Sometimes being kicked or ,['sensory'],['violent_action'],False
+ or something being forcefully jammed in the vagina.,['sensory'],['violence_with_object'],False
 having an awful bruise that is continually irritated and won't heal.,['sensory'],['injury'],False
  At times the ache is sharper,['sensory'],['generic_ache'],False
 something is clenching and ,['sensory'],['violence_with_object'],False
-and yanking my whole abdomen,"['sensory', 'metaphorical']",['violent_action'],False
-It feels like there is a broken G as bottle ,['metaphorical'],['other'],False
- getting poked ,"['sensory', 'metaphorical']",['violent_action'],False
-and scrapped around my pelvis.  ,"['sensory', 'metaphorical']",['violence_with_object'],False
+and yanking my whole abdomen,['sensory'],['violent_action'],False
+It feels like there is a broken G as bottle ,[],['other'],False
+ getting poked ,['sensory'],['violent_action'],False
+and scrapped around my pelvis.  ,['sensory'],['violence_with_object'],False
 Sharp metal grinding against itself,['sensory'],['other'],False
- cogs or machine parts. ,"['sensory', 'metaphorical']",['violence_with_object'],False
+ cogs or machine parts. ,['sensory'],['violence_with_object'],False
  Waves of,['sensory'],['weather'],False
  pulsating pain.,['sensory'],['generic_ache'],False
- Eruptions.,"['sensory', 'metaphorical']",['weight_pressure'],False
-my inner organs are being flayed,"['sensory', 'metaphorical']",['violence_with_object'],False
-like a sharp knife in inserted and twisted in my womb,"['sensory', 'metaphorical']","['violent_action', 'violence_with_object']",False
-like a lightening,['metaphorical'],['other'],False
-like a sudden deadly tearing and ripping,['metaphorical'],"['violent_action', 'injury']",False
+ Eruptions.,['sensory'],['weight_pressure'],False
+my inner organs are being flayed,['sensory'],['violence_with_object'],False
+like a sharp knife in inserted and twisted in my womb,['sensory'],"['violent_action', 'violence_with_object']",False
+like a lightening,[],['other'],False
+like a sudden deadly tearing and ripping,[],"['violent_action', 'injury']",False
