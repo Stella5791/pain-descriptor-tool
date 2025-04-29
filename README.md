@@ -1,95 +1,118 @@
-
 # Pain Descriptor Auto-Tagger
 
-*A linguist-built tool for metaphor analysis in pain discourse — powered by Python, grounded in theory, and fueled by mates 🧉  and metaphor.*
+> A lightweight Python/NLTK pipeline for tagging pain metaphors  
+> with three linguistic dimensions (sensory, affective, temporal)  
+> and a rich set of metaphor types — built by a linguist, powered by mates 🧉.
 
 ---
 
-## 📅 What This Is
-This project is a Python-based tagging tool that processes pain descriptors and automatically identifies metaphor types, experiential framing, intensity, and salience. It's designed for use in linguistic research, health communication, and clinical discourse analysis.
+## 📂 Repository Structure
 
-Developed by a linguist transitioning into tech, with a growing specialization in NLP and machine learning, this tool bridges metaphor theory and structured annotation to support the analysis of health-related language.
-
----
-
-## 🧪 Why This Matters
-Pain is complex. And how people *talk* about pain is often metaphorical. Expressions like:
-- "It's like a monster creeping under my skin"
-- "A volcano exploding in my chest"
-- "A dull throb that won't stop"
-
-...tell us more than just symptoms — they reveal experience, fear, emotion, embodiment.
-
-This tool captures those metaphors, classifies them by type and intensity, and makes them easier to study, compare, and visualize.
-
----
-
-## ⚙️ What It Does
-Given a CSV file of pain descriptors, the script:
-- Detects whether an expression is **metaphorical**, **a simile**, or **non-metaphorical**
-- Tags **metaphor subtypes** (e.g. `violence_with_object`, `transformative_state`)
-- Assigns **experience tags**: `sensory`, `affective`, `temporal`
-- Highlights the **salient_experience** (which one dominates the framing)
-- Estimates **intensity_level**: `low`, `medium`, or `high`
-
----
-
-## 🔄 How It Works
-The script uses keyword matching, regex, and stemming to:
-- Match metaphorical patterns
-- Parse known metaphor themes (defined in a taxonomy)
-- Infer the experiential frame (what kind of "felt sense" it conveys)
-- Detect similes via phrases like *"feels like"*, *"as if"*, etc.
-- Prioritize affective content when relevant
-
-You get a CSV output with these new columns:
-- `metaphor_type`
-- `metaphor_subtypes`
-- `experience_tags`
-- `salient_experience`
-- `intensity_level`
-
----
-
-## 📚 Usage
-Make sure you have:
-- A working Python 3 environment (ideally in a virtualenv)
-- `pandas` and `nltk` installed
-- Your input file: `pain_descriptors_categorized_updated.csv`
-
-Run the script:
-```bash
-python pain_descriptor_auto_tagger.py
+```text
+pain-descriptor-tool/
+├── README.md
+├── requirements.txt
+├── taxonomy.json
+├── pain_descriptor_auto_tagger.py
+├── export_flagged.py
+├── merge_manual.py
+├── remove_metaphorical.py
+├── remove_flag_column.py
+├── visualize_tags.py      # optional charting script
+├── pain_tags_input.csv
+└── pain_tags_output.csv
 ```
 
-Output will be saved as:
-```
-pain_descriptors_final_tagged_all_layers.csv
-```
+- **`taxonomy.json`** – your full list of dimensions, metaphor types, and keywords  
+- **`pain_descriptor_auto_tagger.py`** – batch + CLI review auto-tagger  
+- **`export_flagged.py`** – extract “needs manual review” descriptors  
+- **`merge_manual.py`** – merge your spreadsheet edits back in  
+- **`remove_metaphorical.py`** – strip the now-redundant “metaphorical” dimension  
+- **`remove_flag_column.py`** – drop the internal `flag` column for publishing  
+- **`visualize_tags.py`** – bar-chart distributions of final tags  
 
 ---
 
-## 🌐 Versión en Español
+## 🚀 Quick Start
 
-### 📅 ¿Qué es esto?
-Una herramienta de etiquetado automático para descriptores de dolor con base en teoría de la metáfora conceptual. Construida, muchos mates 🧉 de por medio , en Python por una investigadora en lingüística, permite identificar tipos de metáforas, marcos experienciales e intensidad expresiva en relatos de dolor.
+1. **Clone & set up**  
+   ```bash
+   git clone <your-repo-url>
+   cd pain-descriptor-tool
+   python3 -m venv venv && source venv/bin/activate
+   pip install -r requirements.txt
+   python -c "import nltk; nltk.download('punkt')"
+   ```
 
-### 🧪 ¿Por qué importa?
-Porque el dolor no solo se siente: se cuenta. Y la forma en que lo contamos suele ser metáforica. Esta herramienta permite analizar, categorizar y comparar esas expresiones para comprender mejor la experiencia humana del dolor.
+2. **Auto-tag your CSV**  
+   ```bash
+   python pain_descriptor_auto_tagger.py \
+     --batch \
+     --input pain_tags_input.csv \
+     --output pain_tags_output.csv
+   ```
 
-### ⚙️ ¿Cómo funciona?
-Procesa un archivo CSV con descripciones de dolor e identifica:
-- Si hay metáforas o símiles
-- El tipo de metáfora según una taxonomía
-- Si el foco está en lo sensorial, afectivo o temporal
-- Cuál de esos marcos es más saliente
-- El nivel de intensidad percibida
+3. **Review & fix any flags**  
+   ```bash
+   python pain_descriptor_auto_tagger.py --review --output pain_tags_output.csv
+   ```
 
-Genera un archivo de salida listo para análisis, visualización o validación manual.
+4. **Export remaining flags for spreadsheet**  
+   ```bash
+   python export_flagged.py
+   # → opens flagged_descriptors.csv
+   # Fill in `dimensions,metaphor_types` columns, save file.
+   ```
+
+5. **Merge your manual edits**  
+   ```bash
+   python merge_manual.py
+   ```
+
+6. **Cleanup for publication**  
+   ```bash
+   python remove_metaphorical.py
+   python remove_flag_column.py
+   ```
+
+7. **Visualize tag distributions** *(optional)*  
+   ```bash
+   python visualize_tags.py
+   ```
 
 ---
 
-## 👤 Autoría
-Este proyecto fue desarrollado por Stella Bullo, doctora en lingüística, investigadora en comunicación de la salud, y aprendiz autodidacta de Python. Actualmente en transición hacia la tecnología, con especial interés en NLP y aprendizaje automático aplicados a la comunicación en salud.
+## 🔍 What It Does
 
-Metáforas, mate y metodología: todo está en la mezcla 🍜🚀
+- **Dimensions**: tags each descriptor as one (or more) of  
+  `sensory`, `affective`, `temporal`.  
+- **Metaphor types**: classifies into categories such as  
+  `violent_action`, `weight_pressure`, `generic_ache`, `journey`, etc.  
+- **Manual review workflow**: flags unmatched items, groups similar entries,  
+  then lets you batch-correct via interactive CLI or spreadsheet merge.
+
+---
+
+## 🤝 Why It Matters
+
+Pain language is inherently metaphorical. By systematizing how we tag those metaphors, this tool:
+
+- **Bridges theory & practice** in conceptual metaphor research  
+- **Demonstrates** core NLP/linguistic skills: tokenization, stemming, rule-based classification  
+- **Showcases** a clean Python CLI + manual review + visualization pipeline  
+- **Serves** as a neat portfolio project for Python + linguistics roles
+
+---
+
+## 🛠️ Customization
+
+- Edit **`taxonomy.json`** to add/remove dimensions or metaphor types.  
+- Tweak keyword lists to refine auto-tag coverage.
+
+---
+
+## 👤 Author
+
+Stella Bullo — PhD in Linguistics, health communication researcher, and self-taught Python/NLP enthusiast.  
+
+Metaphors, mates, and methodology — all in one brew! 🍵🚀
