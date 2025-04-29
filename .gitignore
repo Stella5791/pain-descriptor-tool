@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Backups & exports
+flagged_descriptors.csv
+*backup*.csv
+to_review_*.csv
+
+# NLTK data (if stored here)
+nltk_data/
