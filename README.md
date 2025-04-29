@@ -10,17 +10,23 @@
 
 ```text
 pain-descriptor-tool/
-├── README.md
-├── requirements.txt
-├── taxonomy.json
 ├── pain_descriptor_auto_tagger.py
+├── pain_tags_input.csv
+├── pain_tags_output.csv
 ├── export_flagged.py
 ├── merge_manual.py
 ├── remove_metaphorical.py
 ├── remove_flag_column.py
-├── visualize_tags.py      # optional charting script
-├── pain_tags_input.csv
-└── pain_tags_output.csv
+├── visualize_tags.py
+├── taxonomy.json
+├── requirements.txt
+├── README.md
+└── screenshots/
+    ├── input_example.png
+    ├── output_example.png
+    └── tag_distribution.png
+
+
 ```
 
 - **`taxonomy.json`** – your full list of dimensions, metaphor types, and keywords  
@@ -90,6 +96,47 @@ pain-descriptor-tool/
   `violent_action`, `weight_pressure`, `generic_ache`, `journey`, etc.  
 - **Manual review workflow**: flags unmatched items, groups similar entries,  
   then lets you batch-correct via interactive CLI or spreadsheet merge.
+
+---
+
+---
+
+## 🖼️ Example Workflow
+
+This is how the tool processes raw pain descriptors and tags them using metaphor-aware linguistic logic.
+
+### 🔹 Input: Raw Descriptors
+These are metaphor-rich expressions drawn from real patient narratives.
+
+![Input Example](screenshots/input_example.png)
+
+---
+
+### 🔹 Output: Auto-tagged Results
+Each descriptor is automatically labeled with:
+- **Dimension(s)** — experiential framing: `sensory`, `affective`, or `temporal`
+- **Metaphor Type(s)** — grounded in a custom taxonomy of metaphorical pain frames
+
+![Output Example](screenshots/output_example.png)
+
+---
+
+### 🧾 Example Table
+
+| Descriptor                          | Dimensions         | Metaphor Types           |
+|-------------------------------------|---------------------|---------------------------|
+| a balloon swelling up inside you    | sensory             | pressure_expansion        |
+| I've been run over                  | affective, sensory  | violent_action            |
+| scraping metal against metal        | sensory             | machine_harshness         |
+
+---
+
+### 📊 Tag Distribution Overview
+This chart shows the frequency of different metaphor types across the corpus.
+
+*Generated using `visualize_tags.py`*
+
+![Tag Distribution](screenshots/tag_distribution.png)
 
 ---
 
@@ -212,6 +259,47 @@ pain-descriptor-tool/
   `violent_action`, `weight_pressure`, `generic_ache`, `journey`, etc.  
 - **Revisión manual**: marca los no detectados, agrupa similares,  
   y permite corregir vía CLI interactiva o fusión de hoja de cálculo.
+
+---
+
+---
+
+## 🖼️ Ejemplo del Flujo de Trabajo
+
+Así es como la herramienta procesa los descriptores de dolor y los etiqueta utilizando lógica lingüística basada en metáforas.
+
+### 🔹 Entrada: Descriptores sin procesar
+Estas son expresiones ricas en metáforas tomadas de narrativas reales de pacientes.
+
+![Input Example](screenshots/input_example.png)
+
+---
+
+### 🔹 Salida: Descriptores etiquetados automáticamente
+Cada descriptor se etiqueta automáticamente con:
+- **Dimensiones** — marco experiencial: `sensorial`, `afectiva` o `temporal`
+- **Tipos de metáforas** — basados en una taxonomía propia de marcos metafóricos del dolor
+
+![Output Example](screenshots/output_example.png)
+
+---
+
+### 🧾 Tabla de ejemplo
+
+| Descriptor                          | Dimensiones         | Tipos de metáforas        |
+|-------------------------------------|----------------------|----------------------------|
+| a balloon swelling up inside you    | sensorial            | pressure_expansion         |
+| I've been run over                  | afectiva, sensorial  | violent_action             |
+| scraping metal against metal        | sensorial            | machine_harshness          |
+
+---
+
+### 📊 Distribución de etiquetas
+Este gráfico muestra la frecuencia de los diferentes tipos de metáforas en el corpus.
+
+*Generado con `visualize_tags.py`*
+
+![Tag Distribution](screenshots/tag_distribution.png)
 
 ---
 
