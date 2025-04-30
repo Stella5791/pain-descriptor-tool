@@ -90,7 +90,7 @@ I’m Stella — a junior Python and front-end developer with 20+ years in lingu
 
 ## 📍 ¿Por qué este proyecto?
 
-Como doctorada lingüista con experiencia en trabajo de campo y publicaciones en comunicación en salud, he pasado años estudiando cómo las personas describen el dolor — especialmente cuando el lenguaje médico no alcanza. Expresiones como *"un globo que se infla dentro mío"* o *"garras alrededor del útero"* no son solo metáforas: son diagnósticos emocionales, sensoriales y profundamente humanos.
+Como doctorada lingüista con experiencia en trabajo de campo y publicaciones en comunicación en salud (https://orcid.org/0000-0002-7402-0819), he pasado años estudiando cómo las personas describen el dolor — especialmente cuando el lenguaje médico no alcanza. Expresiones como *"un globo que se infla dentro mío"* o *"garras alrededor del útero"* no son solo metáforas: son diagnósticos emocionales, sensoriales y profundamente humanos.
 
 Quise construir una herramienta que uniera mi experiencia académica con mis nuevas habilidades técnicas en Python y PLN. Así nació el **Pain Descriptor Auto-Tagger**: una herramienta en Python que etiqueta automáticamente descripciones del dolor con dimensiones tanto experienciales como metafóricas.
 
