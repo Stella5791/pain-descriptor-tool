@@ -5,7 +5,9 @@
 > and a rich set of metaphor types — built by a linguist, powered by mates 🧉.
 
 ---
+📘 [How I Built This →](./HOW_I_BUILT_THIS.md)
 
+---
 ## 📂 Repository Structure
 
 ```text
