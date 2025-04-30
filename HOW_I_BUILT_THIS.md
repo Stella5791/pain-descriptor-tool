@@ -5,7 +5,7 @@
 
 ## 📍 Why This Project?
 
-As a linguist with a PhD in health communication, I’ve spent years studying how people describe pain — especially when conventional medical language falls short. Expressions like *"a balloon swelling up inside me"* or *"claws around my womb"* aren't just poetic — they're diagnostic, emotional, and deeply human.
+As a linguistics PhD with extensive research and published work in health communication (https://orcid.org/0000-0002-7402-0819), I’ve spent years studying how people describe pain — especially when conventional medical language falls short. Expressions like *"a balloon swelling up inside me"* or *"claws around my womb"* aren't just poetic — they're diagnostic, emotional, and deeply human.
 
 I wanted to build a tool that would bridge my academic expertise with my new technical skill set in Python and NLP. The result is the **Pain Descriptor Auto-Tagger**: a Python-based tool that automatically tags metaphor-rich pain descriptors with both experiential and metaphorical dimensions.
 
@@ -90,7 +90,7 @@ I’m Stella — a junior Python and front-end developer with 20+ years in lingu
 
 ## 📍 ¿Por qué este proyecto?
 
-Como lingüista con un doctorado en comunicación en salud, he pasado años estudiando cómo las personas describen el dolor — especialmente cuando el lenguaje médico no alcanza. Expresiones como *"un globo que se infla dentro mío"* o *"garras alrededor del útero"* no son solo metáforas: son diagnósticos emocionales, sensoriales y profundamente humanos.
+Como doctorada lingüista con experiencia en trabajo de campo y publicaciones en comunicación en salud, he pasado años estudiando cómo las personas describen el dolor — especialmente cuando el lenguaje médico no alcanza. Expresiones como *"un globo que se infla dentro mío"* o *"garras alrededor del útero"* no son solo metáforas: son diagnósticos emocionales, sensoriales y profundamente humanos.
 
 Quise construir una herramienta que uniera mi experiencia académica con mis nuevas habilidades técnicas en Python y PLN. Así nació el **Pain Descriptor Auto-Tagger**: una herramienta en Python que etiqueta automáticamente descripciones del dolor con dimensiones tanto experienciales como metafóricas.
 
